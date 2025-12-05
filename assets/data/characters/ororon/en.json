@@ -1,0 +1,336 @@
+{
+  "name": "Ororon",
+  "vision": "Electro",
+  "weapon": "Bow",
+  "nation": "Natlan",
+  "affiliation": "Masters of the Night-Wind",
+  "rarity": 4,
+  "release": "2024-11-20",
+  "constellation": "Vampyrum Spectrum",
+  "birthday": "0000-10-14",
+  "description": "A young man from the Masters of the Night-Wind. He seems to have a special connection with the Night Kingdom, and his motives are difficult to discern.",
+  "skillTalents": [
+    {
+      "name": "Night-Wind's Spirit",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 3 consecutive shots with a bow.\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG. While aiming, the power of Electro will accumulate on the arrowhead. A fully charged arrow will deal Electro DMG.\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, hitting opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "47.9%"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "45.1%"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "59.3%"
+        },
+        {
+          "name": "Aimed Shot",
+          "value": "43.9%"
+        },
+        {
+          "name": "Fully-Charged Aimed Shot",
+          "value": "124%"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "56.8%"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "114% / 142%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Misty Night's Bindings",
+      "unlock": "Elemental Skill",
+      "description": "Ororon leaps up and throws a Spirit Orb that bounces between opponents, dealing Nightsoul-aligned Electro DMG.\nNightsoul's Blessing: Ororon\nWhen the Spirit Orb hits an opponent, Ororon enters the Nightsoul's Blessing state and gains 40 Nightsoul points. This state lasts 6s. If the Nightsoul points are exhausted, the state ends.",
+      "upgrades": [
+        {
+          "name": "Spirit Orb DMG",
+          "value": "136.8%"
+        },
+        {
+          "name": "Nightsoul Point Limit",
+          "value": "40"
+        },
+        {
+          "name": "CD",
+          "value": "12.0s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Dark Voices Echo",
+      "unlock": "Elemental Burst",
+      "description": "Summons a Supersonic Oculus that taunts nearby opponents and attracts attacks. The Supersonic Oculus continuously rotates, dealing Nightsoul-aligned AoE Electro DMG to nearby opponents.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "115.2%"
+        },
+        {
+          "name": "Duration",
+          "value": "12.0s"
+        },
+        {
+          "name": "CD",
+          "value": "15.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "60"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Nightshade's Synesthesia",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "After a nearby party member triggers a Nightsoul Burst, Ororon gains 40 Nightsoul points. This effect can be triggered once every 12s. Additionally, when a nearby party member triggers a Nightsoul Burst, Ororon enters the Nightsoul's Blessing state.",
+      "level": 1
+    },
+    {
+      "name": "Spirit's Repose",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "After other party members' Normal, Charged, or Plunging Attacks hit opponents, if Ororon is in the Nightsoul's Blessing state, he will regain 3 Energy. This effect can be triggered once every 1s. This effect can occur 3 times per Nightsoul's Blessing duration.",
+      "level": 4
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Vaporous Night-Walk",
+      "unlock": "Constellation Lv. 1",
+      "description": "The Spirit Orb from Misty Night's Bindings can bounce 2 additional times. Additionally, after hitting an opponent with the Spirit Orb, its DMG is increased by 50%.",
+      "level": 1
+    },
+    {
+      "name": "Hidden Spirits, Wine-Dark",
+      "unlock": "Constellation Lv. 2",
+      "description": "After using the Elemental Burst Dark Voices Echo, Ororon gains 12% Electro DMG Bonus for 12s. For every additional opponent hit by the Supersonic Oculus, he gains an additional 12% Electro DMG Bonus, up to a maximum of 60%.",
+      "level": 2
+    },
+    {
+      "name": "Roaming Fog-Tides",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Dark Voices Echo by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "As the Deep Wind Howls",
+      "unlock": "Constellation Lv. 4",
+      "description": "The Supersonic Oculus summoned by Dark Voices Echo rotates 25% faster.",
+      "level": 4
+    },
+    {
+      "name": "Echoes of the Soul-Vessel",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Misty Night's Bindings by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "Ode to Deep Springs",
+      "unlock": "Constellation Lv. 6",
+      "description": "After triggering the effect from Passive Talent 'Nightshade's Synesthesia,' the current active character's ATK is increased by 10% for 9s. Max 3 stacks.",
+      "level": 6
+    }
+  ],
+  "vision_key": "ELECTRO",
+  "weapon_type": "BOW",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Mora",
+        "value": 20000
+      },
+      {
+        "name": "Vajrada Amethyst Sliver",
+        "value": 1
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 3
+      },
+      {
+        "name": "Juvenile Fang",
+        "value": 3
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Mora",
+        "value": 40000
+      },
+      {
+        "name": "Vajrada Amethyst Fragment",
+        "value": 3
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 10
+      },
+      {
+        "name": "Juvenile Fang",
+        "value": 15
+      },
+      {
+        "name": "Mark of the Binding Blessing",
+        "value": 2
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Mora",
+        "value": 60000
+      },
+      {
+        "name": "Vajrada Amethyst Fragment",
+        "value": 6
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 20
+      },
+      {
+        "name": "Seasoned Fang",
+        "value": 12
+      },
+      {
+        "name": "Mark of the Binding Blessing",
+        "value": 4
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Mora",
+        "value": 80000
+      },
+      {
+        "name": "Vajrada Amethyst Chunk",
+        "value": 3
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 30
+      },
+      {
+        "name": "Seasoned Fang",
+        "value": 18
+      },
+      {
+        "name": "Mark of the Binding Blessing",
+        "value": 8
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Mora",
+        "value": 100000
+      },
+      {
+        "name": "Vajrada Amethyst Chunk",
+        "value": 6
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 45
+      },
+      {
+        "name": "Tyrant's Fang",
+        "value": 12
+      },
+      {
+        "name": "Mark of the Binding Blessing",
+        "value": 12
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Mora",
+        "value": 120000
+      },
+      {
+        "name": "Vajrada Amethyst Gemstone",
+        "value": 6
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 60
+      },
+      {
+        "name": "Tyrant's Fang",
+        "value": 24
+      },
+      {
+        "name": "Mark of the Binding Blessing",
+        "value": 20
+      }
+    ]
+  },
+  "ascension_data": [
+    {
+      "AscensionPhase": "0",
+      "Level": "1/20",
+      "BaseHP": "802",
+      "BaseAtk": "19",
+      "BaseDef": "49",
+      "ATK": "0%"
+    },
+    {
+      "AscensionPhase": "1",
+      "Level": "20/40",
+      "BaseHP": "2,069",
+      "BaseAtk": "48",
+      "BaseDef": "127",
+      "ATK": "0%"
+    },
+    {
+      "AscensionPhase": "2",
+      "Level": "40/50",
+      "BaseHP": "3,431",
+      "BaseAtk": "80",
+      "BaseDef": "211",
+      "ATK": "6.0%"
+    },
+    {
+      "AscensionPhase": "3",
+      "Level": "50/60",
+      "BaseHP": "4,388",
+      "BaseAtk": "102",
+      "BaseDef": "270",
+      "ATK": "12.0%"
+    },
+    {
+      "AscensionPhase": "4",
+      "Level": "60/70",
+      "BaseHP": "5,235",
+      "BaseAtk": "122",
+      "BaseDef": "322",
+      "ATK": "12.0%"
+    },
+    {
+      "AscensionPhase": "5",
+      "Level": "70/80",
+      "BaseHP": "6,081",
+      "BaseAtk": "141",
+      "BaseDef": "374",
+      "ATK": "18.0%"
+    },
+    {
+      "AscensionPhase": "6",
+      "Level": "80/90",
+      "BaseHP": "6,928",
+      "BaseAtk": "161",
+      "BaseDef": "426",
+      "ATK": "24.0%"
+    }
+  ]
+}
