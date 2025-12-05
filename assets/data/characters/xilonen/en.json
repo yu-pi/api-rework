@@ -1,0 +1,368 @@
+{
+  "name": "Xilonen",
+  "vision": "Geo",
+  "weapon": "Sword",
+  "nation": "Natlan",
+  "affiliation": "Nanatzcayan",
+  "rarity": 5,
+  "release": "2024-10-09",
+  "constellation": "Panthera Ocelota",
+  "birthday": "03-13",
+  "description": "A Name Engraver of the Nanatzcayan, she is especially skilled at finding a good balance between the heavy responsibilities of her job and living well.",
+  "skillTalents": [
+    {
+      "name": "Ehecatl's Roar",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 3 rapid strikes.\nCharged Attack\nConsumes a fixed amount of Stamina and performs a forward kick.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\nNightsoul's Blessing: Blade Roller\nWhen in the Nightsoul's Blessing state, Xilonen will enter the Blade Roller mode. While in this mode, Xilonen's Normal Attacks will allow her to perform up to 4 kicks using her roller blades, and she will be unable to use Charged Attacks. When her Normal and Plunging Attacks are used in this mode, they will switch to being based on her DEF, and Xilonen will deal Nightsoul-aligned Geo DMG that cannot be overridden.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "51.8%"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "27.4% + 27.4%"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "72.9%"
+        },
+        {
+          "name": "Charged Attack DMG",
+          "value": "91.3%"
+        },
+        {
+          "name": "Charged Attack Stamina Cost",
+          "value": "20.0"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "63.9% DEF"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "127.8% / 159.7% DEF"
+        },
+        {
+          "name": "Blade Roller 1-Hit DMG",
+          "value": "56.0% DEF"
+        },
+        {
+          "name": "Blade Roller 2-Hit DMG",
+          "value": "55.0% DEF"
+        },
+        {
+          "name": "Blade Roller 3-Hit DMG",
+          "value": "65.8% DEF"
+        },
+        {
+          "name": "Blade Roller 4-Hit DMG",
+          "value": "86.0% DEF"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Yohual's Scratch",
+      "unlock": "Elemental Skill",
+      "description": "Xilonen switches to high-speed combat blading gear and rushes forward a certain distance before dealing Nightsoul-aligned Geo DMG based on her DEF. After using this, Xilonen will gain 45 Nightsoul points and enter the Nightsoul's Blessing state. In this state, she will shift to the Blade Roller mode.\nSource Samples: Xilonen has 3 Samplers that generate Soundscapes based on party members' Elemental Types. Each Pyro/Hydro/Cryo/Electro member changes 1 Geo Sample to that element. While active, Source Samples decrease nearby opponents' corresponding Elemental RES.",
+      "upgrades": [
+        {
+          "name": "Rush DMG",
+          "value": "173.7% DEF"
+        },
+        {
+          "name": "Elemental RES Decrease",
+          "value": "9.0%"
+        },
+        {
+          "name": "Source Sample Activation Duration",
+          "value": "15.0s"
+        },
+        {
+          "name": "Nightsoul Point Limit",
+          "value": "90"
+        },
+        {
+          "name": "Nightsoul Point Time Limit",
+          "value": "9.0s"
+        },
+        {
+          "name": "CD",
+          "value": "7.0s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Ocelotlicue Point!",
+      "unlock": "Elemental Burst",
+      "description": "Activates the Phlogiston Stereo DJ Controller (Portable) at full power, dealing Nightsoul-aligned AoE Geo DMG based on Xilonen's DEF. Additionally, triggers effects based on Source Samples:\nIf at least 2 Source Samples have changed Elemental Types: Plays Ebullient rhythm, healing nearby active characters at intervals based on her DEF.\nIf fewer than 2 Source Samples have changed: Plays Ardent rhythm, dealing 2 additional beats of AoE Geo DMG based on her DEF.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "272.6% DEF"
+        },
+        {
+          "name": "Continuous Healing",
+          "value": "100.8% DEF + 593"
+        },
+        {
+          "name": "Follow-Up Beat DMG",
+          "value": "272.6% DEF"
+        },
+        {
+          "name": "CD",
+          "value": "15.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "60"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Netotiliztli's Echoes",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "While in the Nightsoul's Blessing state: If Xilonen has at least 2 Source Samples that have had their Elemental Types changed, she gains 35 Nightsoul points when her Normal or Plunging Attacks hit opponents. Can be triggered once every 0.1s. If Xilonen has fewer than 2 Source Samples that have had their Elemental Types changed, her Normal and Plunging Attacks deal 30% increased DMG.",
+      "level": 1
+    },
+    {
+      "name": "Portable Armored Sheath",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "While in the Nightsoul's Blessing state, when Xilonen's Nightsoul points reach the maximum, she will trigger an effect equal to that of her Nightsoul Burst. This effect can be triggered once every 14s. Additionally, when nearby party members trigger a Nightsoul Burst, Xilonen's DEF is increased by 20% for 15s.",
+      "level": 4
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Sabbatical Phrase",
+      "unlock": "Constellation Lv. 1",
+      "description": "Xilonen's Nightsoul point and Phlogiston consumption in her Nightsoul's Blessing state is decreased by 30%, and her Nightsoul point time limit is extended by 45%. Additionally, when Xilonen's Source Samples are active, she can also increase nearby active characters' interruption resistance.",
+      "level": 1
+    },
+    {
+      "name": "Chiucue Mix",
+      "unlock": "Constellation Lv. 2",
+      "description": "Xilonen's Geo Source Sample will always remain active. Additionally, when her Source Samples activate, all nearby party members will gain effects corresponding to the active Source Sample that matches their Elemental Type:\nGeo: DMG +50%\nPyro: ATK +45%\nHydro: Max HP +45%\nCryo: CRIT DMG +60%\nElectro: Restore 25 Energy, decrease Elemental Burst CD by 6s",
+      "level": 2
+    },
+    {
+      "name": "Tonalpohualli's Loop",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Yohual's Scratch by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "Suchitl's Trance",
+      "unlock": "Constellation Lv. 4",
+      "description": "After Xilonen uses Yohual's Scratch, she will grant all nearby party members the Blooming Blessing effect for 15s. Characters with Blooming Blessing deal 65% of Xilonen's DEF as increased Normal, Charged, and Plunging Attack DMG. This effect will be removed after triggering 6 times or when the duration ends.",
+      "level": 4
+    },
+    {
+      "name": "Tlaltecuhtli's Crossfade",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Ocelotlicue Point! by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "Imperishable Night Carnival",
+      "unlock": "Constellation Lv. 6",
+      "description": "When Xilonen is in the Nightsoul's Blessing state, when she sprints, leaps, or uses Normal or Plunging Attacks, she will gain Imperishable Night's Blessing, ignoring the limitations of her Nightsoul's Blessing state and increasing the DMG dealt by her Normal and Plunging Attacks for 5s. During this time: Her Nightsoul's Blessing time limit countdown will be paused. Xilonen's Nightsoul points, Phlogiston, and Stamina will not decrease, and when her Nightsoul points reach the maximum, her Nightsoul's Blessing state will not end either. Xilonen deals 300% of her DEF as increased Normal and Plunging Attack DMG. She heals nearby party members for 120% of her DEF every 1.5s. Can be gained once every 15s.",
+      "level": 6
+    }
+  ],
+  "vision_key": "GEO",
+  "weapon_type": "SWORD",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Mora",
+        "value": 20000
+      },
+      {
+        "name": "Prithiva Topaz Sliver",
+        "value": 1
+      },
+      {
+        "name": "Brilliant Chrysanthemum",
+        "value": 3
+      },
+      {
+        "name": "Sentry's Wooden Whistle",
+        "value": 3
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Mora",
+        "value": 40000
+      },
+      {
+        "name": "Prithiva Topaz Fragment",
+        "value": 3
+      },
+      {
+        "name": "Brilliant Chrysanthemum",
+        "value": 10
+      },
+      {
+        "name": "Sentry's Wooden Whistle",
+        "value": 15
+      },
+      {
+        "name": "Gold-Inscribed Secret Source Core",
+        "value": 2
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Mora",
+        "value": 60000
+      },
+      {
+        "name": "Prithiva Topaz Fragment",
+        "value": 6
+      },
+      {
+        "name": "Brilliant Chrysanthemum",
+        "value": 20
+      },
+      {
+        "name": "Warrior's Metal Whistle",
+        "value": 12
+      },
+      {
+        "name": "Gold-Inscribed Secret Source Core",
+        "value": 4
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Mora",
+        "value": 80000
+      },
+      {
+        "name": "Prithiva Topaz Chunk",
+        "value": 3
+      },
+      {
+        "name": "Brilliant Chrysanthemum",
+        "value": 30
+      },
+      {
+        "name": "Warrior's Metal Whistle",
+        "value": 18
+      },
+      {
+        "name": "Gold-Inscribed Secret Source Core",
+        "value": 8
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Mora",
+        "value": 100000
+      },
+      {
+        "name": "Prithiva Topaz Chunk",
+        "value": 6
+      },
+      {
+        "name": "Brilliant Chrysanthemum",
+        "value": 45
+      },
+      {
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "value": 12
+      },
+      {
+        "name": "Gold-Inscribed Secret Source Core",
+        "value": 12
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Mora",
+        "value": 120000
+      },
+      {
+        "name": "Prithiva Topaz Gemstone",
+        "value": 6
+      },
+      {
+        "name": "Brilliant Chrysanthemum",
+        "value": 60
+      },
+      {
+        "name": "Saurian-Crowned Warrior's Golden Whistle",
+        "value": 24
+      },
+      {
+        "name": "Gold-Inscribed Secret Source Core",
+        "value": 20
+      }
+    ]
+  },
+  "ascension_data": [
+    {
+      "AscensionPhase": "0",
+      "Level": "1/20",
+      "BaseHP": "966",
+      "BaseAtk": "21",
+      "BaseDef": "72",
+      "DEF": "0%"
+    },
+    {
+      "AscensionPhase": "1",
+      "Level": "20/40",
+      "BaseHP": "2,499",
+      "BaseAtk": "55",
+      "BaseDef": "187",
+      "DEF": "0%"
+    },
+    {
+      "AscensionPhase": "2",
+      "Level": "40/50",
+      "BaseHP": "6,415",
+      "BaseAtk": "142",
+      "BaseDef": "481",
+      "DEF": "9.0%"
+    },
+    {
+      "AscensionPhase": "3",
+      "Level": "50/60",
+      "BaseHP": "8,047",
+      "BaseAtk": "178",
+      "BaseDef": "603",
+      "DEF": "18.0%"
+    },
+    {
+      "AscensionPhase": "4",
+      "Level": "60/70",
+      "BaseHP": "9,491",
+      "BaseAtk": "210",
+      "BaseDef": "712",
+      "DEF": "18.0%"
+    },
+    {
+      "AscensionPhase": "5",
+      "Level": "70/80",
+      "BaseHP": "10,945",
+      "BaseAtk": "243",
+      "BaseDef": "820",
+      "DEF": "27.0%"
+    },
+    {
+      "AscensionPhase": "6",
+      "Level": "80/90",
+      "BaseHP": "12,405",
+      "BaseAtk": "275",
+      "BaseDef": "930",
+      "DEF": "36.0%"
+    }
+  ]
+}
