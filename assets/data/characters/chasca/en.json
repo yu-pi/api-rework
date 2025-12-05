@@ -1,0 +1,356 @@
+{
+  "name": "Chasca",
+  "vision": "Anemo",
+  "weapon": "Bow",
+  "nation": "Natlan",
+  "affiliation": "Tlalocan",
+  "rarity": 5,
+  "release": "2024-11-20",
+  "constellation": "Vultur Gryphus",
+  "birthday": "0000-12-10",
+  "description": "The most infamous Peacemaker of the Flower-Feather Clan and no stranger to the Night Warden Wars, she is familiar with conflicts — at times struggling with many of her own internal ones — yet despite how many would view her, she is always able to stand above them.",
+  "skillTalents": [
+    {
+      "name": "Phantom Feather Flurry",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 4 consecutive shots with a bow.\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG. While aiming, mighty winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, hitting opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "48.0%"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "44.6%"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "29.7% + 29.7%"
+        },
+        {
+          "name": "4-Hit DMG",
+          "value": "25.5% x3"
+        },
+        {
+          "name": "Aimed Shot",
+          "value": "43.9%"
+        },
+        {
+          "name": "Fully-Charged Aimed Shot",
+          "value": "124%"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "56.8%"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "114% / 142%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Spirit Reins, Shadow Hunt",
+      "unlock": "Elemental Skill",
+      "description": "Chasca and the will residing in her weapon resonate, dealing Nightsoul-aligned AoE Anemo DMG. After using this Skill, Chasca gains 80 Nightsoul points and enters the Nightsoul's Blessing state.\nNightsoul's Blessing: Chasca\nMounts 'Soulsniper: Ritual Staff,' increasing Chasca's Movement SPD and interruption resistance. In this state, Chasca will continually consume Nightsoul points to remain airborne. When using Normal or Charged Attacks, Tap or Hold to switch between using 'Multitarget Fire' in different ways.\nTap: Deal Nightsoul-aligned Anemo DMG to opponents in front. This DMG is considered Normal Attack DMG.\nHold: Enter Aiming Mode and choose a certain number of opponents within a certain range, before loading up to 6 Shadowhunt Shells. When 6 Shells have been loaded or charging is stopped, these Shells will be fired at the chosen opponents in sequence. The 4th, 5th, and 6th Shells loaded will be subject to Elemental Conversion based on the Elemental Types of the other party members: For every Pyro, Hydro, Cryo, or Electro character in the party, one of these Shells will be converted into a Shining Shadowhunt Shell of the corresponding Elemental Type, dealing Nightsoul-aligned Elemental DMG.",
+      "upgrades": [
+        {
+          "name": "Resonance DMG",
+          "value": "51.5%"
+        },
+        {
+          "name": "Multitarget Fire Tap DMG",
+          "value": "30.9%"
+        },
+        {
+          "name": "Shadowhunt Shell DMG",
+          "value": "41.9%"
+        },
+        {
+          "name": "Shining Shadowhunt Shell DMG",
+          "value": "143.0%"
+        },
+        {
+          "name": "Nightsoul Point Limit",
+          "value": "80"
+        },
+        {
+          "name": "CD",
+          "value": "6.5s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Soul Reaper's Fatal Round",
+      "unlock": "Elemental Burst",
+      "description": "Chasca concentrates her will, firing a single 'Galesplitting Soulseeker Shell' that deals Nightsoul-aligned AoE Anemo DMG. Afterward, the Galesplitting Soulseeker Shell will split into 6 Soulseeker Shells, which attack nearby opponents. For each Pyro, Hydro, Cryo, or Electro character in the party, 2 Soulseeker Shells will undergo Elemental Conversion to become 'Radiant Soulseeker Shells,' which deal Nightsoul-aligned Elemental DMG of the corresponding Elemental Type.",
+      "upgrades": [
+        {
+          "name": "Galesplitting Soulseeker Shell DMG",
+          "value": "75.5%"
+        },
+        {
+          "name": "Soulseeker Shell DMG",
+          "value": "88.8%"
+        },
+        {
+          "name": "Radiant Soulseeker Shell DMG",
+          "value": "177.5%"
+        },
+        {
+          "name": "CD",
+          "value": "15.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "60"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Bullet Trick",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When using the Hold version of Multitarget Fire, based on the number of party members with different Elemental Types (Pyro, Hydro, Cryo, Electro), there is a chance to trigger Spiritbinding Conversion: The 3rd Shadowhunt Shell loaded into the cylinder will be randomly converted into a Shining Shadowhunt Shell. 1/2/3 Elemental Types: 33.3%/66.7%/100% chance. Each Elemental Type will grant Chasca 1 stack of Spirit of the Radiant Shadow, increasing the DMG of Shining Shadowhunt Shell by 15%/35%/65%.",
+      "level": 1
+    },
+    {
+      "name": "Intent to Cover",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When a nearby party member triggers a Nightsoul Burst, Chasca will fire a 'Burning Shadowhunt Shot' at a nearby opponent, dealing Nightsoul-aligned Anemo DMG equal to 150% of the Shadowhunt Shell DMG from her Elemental Skill. If the party has Pyro, Hydro, Cryo, or Electro characters, this shot will be converted to deal Elemental DMG equal to 150% of the Shining Shadowhunt Shell DMG.",
+      "level": 4
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Cylinder, the Restless Roulette",
+      "unlock": "Constellation Lv. 1",
+      "description": "When triggering the Passive Talent 'Bullet Trick's' Spiritbinding Conversion, the 2nd Shadowhunt Shell loaded into the cylinder will be additionally converted into a Shining Shadowhunt Shell. The chance to trigger Spiritbinding Conversion is increased by 33.3% (max 100%) if there are eligible party members. Decreases Nightsoul point and Phlogiston consumption by 30% while out of combat.",
+      "level": 1
+    },
+    {
+      "name": "Muzzle, the Searing Smoke",
+      "unlock": "Constellation Lv. 2",
+      "description": "When Chasca takes the field, she gains 1 stack of Spirit of the Radiant Shadow. Additionally, when Shining Shadowhunt Shells hit opponents, they deal AoE Elemental DMG equal to 400% of Chasca's ATK. This effect can be triggered once each time Chasca uses Multitarget Fire.",
+      "level": 2
+    },
+    {
+      "name": "Reins, Her Careful Control",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Spirit Reins, Shadow Hunt by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "Sparks, the Sudden Shot",
+      "unlock": "Constellation Lv. 4",
+      "description": "When the Radiant Soulseeker Shells from the Elemental Burst hit opponents, they restore 1.5 Elemental Energy to Chasca and deal AoE Elemental DMG equal to 400% of Chasca's ATK. This effect can be triggered once per Elemental Burst use.",
+      "level": 4
+    },
+    {
+      "name": "Brim, the Sandshadow's Silhouette",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Soul Reaper's Fatal Round by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "Showdown, the Glory of Battle",
+      "unlock": "Constellation Lv. 6",
+      "description": "Chasca's Multitarget Fire charge time is decreased. After triggering Spiritbinding Conversion, Chasca gains 'Fatal Rounds': For the next 3s, her next Multitarget Fire will finish charging instantly, and its CRIT DMG is increased by 120%. Can be gained once every 3s.",
+      "level": 6
+    }
+  ],
+  "vision_key": "ANEMO",
+  "weapon_type": "BOW",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Mora",
+        "value": 20000
+      },
+      {
+        "name": "Vayuda Turquoise Sliver",
+        "value": 1
+      },
+      {
+        "name": "Withering Purpurbloom",
+        "value": 3
+      },
+      {
+        "name": "Juvenile Fang",
+        "value": 3
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Mora",
+        "value": 40000
+      },
+      {
+        "name": "Vayuda Turquoise Fragment",
+        "value": 3
+      },
+      {
+        "name": "Withering Purpurbloom",
+        "value": 10
+      },
+      {
+        "name": "Juvenile Fang",
+        "value": 15
+      },
+      {
+        "name": "Ensnaring Gaze",
+        "value": 2
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Mora",
+        "value": 60000
+      },
+      {
+        "name": "Vayuda Turquoise Fragment",
+        "value": 6
+      },
+      {
+        "name": "Withering Purpurbloom",
+        "value": 20
+      },
+      {
+        "name": "Seasoned Fang",
+        "value": 12
+      },
+      {
+        "name": "Ensnaring Gaze",
+        "value": 4
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Mora",
+        "value": 80000
+      },
+      {
+        "name": "Vayuda Turquoise Chunk",
+        "value": 3
+      },
+      {
+        "name": "Withering Purpurbloom",
+        "value": 30
+      },
+      {
+        "name": "Seasoned Fang",
+        "value": 18
+      },
+      {
+        "name": "Ensnaring Gaze",
+        "value": 8
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Mora",
+        "value": 100000
+      },
+      {
+        "name": "Vayuda Turquoise Chunk",
+        "value": 6
+      },
+      {
+        "name": "Withering Purpurbloom",
+        "value": 45
+      },
+      {
+        "name": "Tyrant's Fang",
+        "value": 12
+      },
+      {
+        "name": "Ensnaring Gaze",
+        "value": 12
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Mora",
+        "value": 120000
+      },
+      {
+        "name": "Vayuda Turquoise Gemstone",
+        "value": 6
+      },
+      {
+        "name": "Withering Purpurbloom",
+        "value": 60
+      },
+      {
+        "name": "Tyrant's Fang",
+        "value": 24
+      },
+      {
+        "name": "Ensnaring Gaze",
+        "value": 20
+      }
+    ]
+  },
+  "ascension_data": [
+    {
+      "AscensionPhase": "0",
+      "Level": "1/20",
+      "BaseHP": "763",
+      "BaseAtk": "27",
+      "BaseDef": "48",
+      "CRIT Rate": "0%"
+    },
+    {
+      "AscensionPhase": "1",
+      "Level": "20/40",
+      "BaseHP": "2,632",
+      "BaseAtk": "93",
+      "BaseDef": "165",
+      "CRIT Rate": "0%"
+    },
+    {
+      "AscensionPhase": "2",
+      "Level": "40/50",
+      "BaseHP": "4,403",
+      "BaseAtk": "156",
+      "BaseDef": "276",
+      "CRIT Rate": "4.8%"
+    },
+    {
+      "AscensionPhase": "3",
+      "Level": "50/60",
+      "BaseHP": "5,686",
+      "BaseAtk": "201",
+      "BaseDef": "357",
+      "CRIT Rate": "9.6%"
+    },
+    {
+      "AscensionPhase": "4",
+      "Level": "60/70",
+      "BaseHP": "6,820",
+      "BaseAtk": "241",
+      "BaseDef": "428",
+      "CRIT Rate": "9.6%"
+    },
+    {
+      "AscensionPhase": "5",
+      "Level": "70/80",
+      "BaseHP": "7,960",
+      "BaseAtk": "282",
+      "BaseDef": "500",
+      "CRIT Rate": "14.4%"
+    },
+    {
+      "AscensionPhase": "6",
+      "Level": "80/90",
+      "BaseHP": "9,108",
+      "BaseAtk": "322",
+      "BaseDef": "572",
+      "CRIT Rate": "19.2%"
+    }
+  ]
+}
