@@ -1,0 +1,356 @@
+{
+  "name": "Citlali",
+  "vision": "Cryo",
+  "weapon": "Catalyst",
+  "nation": "Natlan",
+  "affiliation": "Masters of the Night-Wind",
+  "rarity": 5,
+  "release": "2025-01-01",
+  "constellation": "Cristallo Glacies",
+  "birthday": "0000-01-20",
+  "description": "An elder of the Masters of the Night-Wind, she is a powerful shaman who is well-versed in the ancient rituals and history of Natlan, though she often prefers the quiet company of spirits over people.",
+  "skillTalents": [
+    {
+      "name": "Obsidian Ceremonial Rite",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 3 consecutive attacks that deal Cryo DMG.\nCharged Attack\nConsumes a certain amount of Stamina to unleash a freezing crystal lantern, dealing AoE Cryo DMG after a short casting time.\nPlunging Attack\nGathering the power of Cryo, Citlali plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Cryo DMG upon impact with the ground.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "88.6%"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "79.2%"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "103.5%"
+        },
+        {
+          "name": "Charged Attack DMG",
+          "value": "194.5%"
+        },
+        {
+          "name": "Charged Attack Stamina Cost",
+          "value": "50"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "56.8%"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "114% / 142%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Yohual's Frost-Warded Embrace",
+      "unlock": "Elemental Skill",
+      "description": "Calls upon the spirits of the Night-Wind to create a 'Jade-Star Shield' and deals AoE Cryo DMG. When the Shield is created, Citlali gains 32 Nightsoul points and enters the Nightsoul's Blessing state.\nJade-Star Shield:\nAbsorbs Cryo DMG with 250% effectiveness. The Shield's DMG Absorption is based on Citlali's Elemental Mastery. When the shield is created, it applies Cryo to Citlali.\nNightsoul's Blessing: Citlali\nWhile the Jade-Star Shield is active, Citlali consumes Nightsoul points over time. When the active character within the shield attacks an opponent, the shield will unleash 'Frost-Spirits' that deal Nightsoul-aligned Cryo DMG. This effect can trigger once every 2s.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "142.8%"
+        },
+        {
+          "name": "Shield Absorption",
+          "value": "245% EM + 1850"
+        },
+        {
+          "name": "Frost-Spirit DMG",
+          "value": "98.4%"
+        },
+        {
+          "name": "Shield Duration",
+          "value": "12.0s"
+        },
+        {
+          "name": "Nightsoul Point Limit",
+          "value": "32"
+        },
+        {
+          "name": "CD",
+          "value": "15.0s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Glacial Storm of the Ancients",
+      "unlock": "Elemental Burst",
+      "description": "Unleashes the full power of the Night-Wind, creating a massive field of 'Frozen Night' that deals continuous Nightsoul-aligned AoE Cryo DMG to opponents within it. The field periodically restores HP to the active character based on Citlali's Elemental Mastery.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "186.4%"
+        },
+        {
+          "name": "Continuous DMG",
+          "value": "68.5%"
+        },
+        {
+          "name": "Healing",
+          "value": "120% EM + 800"
+        },
+        {
+          "name": "Duration",
+          "value": "12.0s"
+        },
+        {
+          "name": "CD",
+          "value": "18.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "70"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Whispers of the Black Obsidian",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When the Jade-Star Shield takes DMG, Citlali gains 1 stack of 'Obsidian Fortitude', increasing the Shield Strength by 5%. Max 5 stacks. This effect lasts until the shield disappears.",
+      "level": 1
+    },
+    {
+      "name": "Chilling Wind's Caress",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "For every point of Elemental Mastery Citlali possesses, the DMG dealt by her Frost-Spirits and Glacial Storm is increased by 0.1%. The maximum DMG Bonus obtainable this way is 100%.",
+      "level": 4
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Starry Veil of Protection",
+      "unlock": "Constellation Lv. 1",
+      "description": "The DMG Absorption of the Jade-Star Shield is increased by 20%. Additionally, when Citlali triggers a Cryo-related reaction, she recovers 8 Energy. This effect can occur once every 5s.",
+      "level": 1
+    },
+    {
+      "name": "Frozen Heart of the Night",
+      "unlock": "Constellation Lv. 2",
+      "description": "When using Glacial Storm of the Ancients, all nearby party members gain 200 Elemental Mastery for 12s.",
+      "level": 2
+    },
+    {
+      "name": "Ceremony of the Frost",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Yohual's Frost-Warded Embrace by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "Echoes of the Forgotten",
+      "unlock": "Constellation Lv. 4",
+      "description": "When the Jade-Star Shield breaks or expires, it explodes, dealing AoE Cryo DMG equal to 400% of Citlali's Elemental Mastery.",
+      "level": 4
+    },
+    {
+      "name": "Spirits' Eternal Slumber",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Glacial Storm of the Ancients by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "Dawn of the New Sun",
+      "unlock": "Constellation Lv. 6",
+      "description": "While Citlali is in the Nightsoul's Blessing state, the Nightsoul point consumption of her Frost-Spirits is reduced by 50%. Additionally, the active character shielded by Jade-Star Shield gains 40% Cryo DMG Bonus.",
+      "level": 6
+    }
+  ],
+  "vision_key": "CRYO",
+  "weapon_type": "CATALYST",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Mora",
+        "value": 20000
+      },
+      {
+        "name": "Shivada Jade Sliver",
+        "value": 1
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 3
+      },
+      {
+        "name": "Juvenile Fang",
+        "value": 3
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Mora",
+        "value": 40000
+      },
+      {
+        "name": "Shivada Jade Fragment",
+        "value": 3
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 10
+      },
+      {
+        "name": "Juvenile Fang",
+        "value": 15
+      },
+      {
+        "name": "Mark of the Binding Blessing",
+        "value": 2
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Mora",
+        "value": 60000
+      },
+      {
+        "name": "Shivada Jade Fragment",
+        "value": 6
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 20
+      },
+      {
+        "name": "Seasoned Fang",
+        "value": 12
+      },
+      {
+        "name": "Mark of the Binding Blessing",
+        "value": 4
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Mora",
+        "value": 80000
+      },
+      {
+        "name": "Shivada Jade Chunk",
+        "value": 3
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 30
+      },
+      {
+        "name": "Seasoned Fang",
+        "value": 18
+      },
+      {
+        "name": "Mark of the Binding Blessing",
+        "value": 8
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Mora",
+        "value": 100000
+      },
+      {
+        "name": "Shivada Jade Chunk",
+        "value": 6
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 45
+      },
+      {
+        "name": "Tyrant's Fang",
+        "value": 12
+      },
+      {
+        "name": "Mark of the Binding Blessing",
+        "value": 12
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Mora",
+        "value": 120000
+      },
+      {
+        "name": "Shivada Jade Gemstone",
+        "value": 6
+      },
+      {
+        "name": "Glowing Hornshroom",
+        "value": 60
+      },
+      {
+        "name": "Tyrant's Fang",
+        "value": 24
+      },
+      {
+        "name": "Mark of the Binding Blessing",
+        "value": 20
+      }
+    ]
+  },
+  "ascension_data": [
+    {
+      "AscensionPhase": "0",
+      "Level": "1/20",
+      "BaseHP": "890",
+      "BaseAtk": "24",
+      "BaseDef": "55",
+      "Elemental Mastery": "0"
+    },
+    {
+      "AscensionPhase": "1",
+      "Level": "20/40",
+      "BaseHP": "2,350",
+      "BaseAtk": "62",
+      "BaseDef": "145",
+      "Elemental Mastery": "0"
+    },
+    {
+      "AscensionPhase": "2",
+      "Level": "40/50",
+      "BaseHP": "4,100",
+      "BaseAtk": "115",
+      "BaseDef": "260",
+      "Elemental Mastery": "29"
+    },
+    {
+      "AscensionPhase": "3",
+      "Level": "50/60",
+      "BaseHP": "5,300",
+      "BaseAtk": "148",
+      "BaseDef": "330",
+      "Elemental Mastery": "58"
+    },
+    {
+      "AscensionPhase": "4",
+      "Level": "60/70",
+      "BaseHP": "6,500",
+      "BaseAtk": "180",
+      "BaseDef": "400",
+      "Elemental Mastery": "58"
+    },
+    {
+      "AscensionPhase": "5",
+      "Level": "70/80",
+      "BaseHP": "7,800",
+      "BaseAtk": "215",
+      "BaseDef": "480",
+      "Elemental Mastery": "86"
+    },
+    {
+      "AscensionPhase": "6",
+      "Level": "80/90",
+      "BaseHP": "9,200",
+      "BaseAtk": "250",
+      "BaseDef": "570",
+      "Elemental Mastery": "115"
+    }
+  ]
+}
