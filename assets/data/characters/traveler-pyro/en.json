@@ -1,0 +1,328 @@
+{
+  "name": "Traveler",
+  "vision": "Pyro",
+  "weapon": "Sword",
+  "nation": "Outlander",
+  "affiliation": "Not affilated to any Nation",
+  "rarity": 5,
+  "release": "2023-08-16",
+  "constellation": "Viator/Viatrix",
+  "birthday": "Unknown",
+  "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+  "skillTalents": [
+    {
+      "name": "Foreign Blaze",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 5 rapid strikes.\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "44.5%"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "43.4%"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "53.0%"
+        },
+        {
+          "name": "4-Hit DMG",
+          "value": "58.3%"
+        },
+        {
+          "name": "5-Hit DMG",
+          "value": "70.8%"
+        },
+        {
+          "name": "Charged Attack DMG",
+          "value": "55.9% + 72.2% (Lumine), 60.7% (Aether)"
+        },
+        {
+          "name": "Charged Attack Stamina Cost",
+          "value": "20"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "63.9%"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "128% / 160%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Flowfire Blade",
+      "unlock": "Elemental Skill",
+      "description": "Wields a searing flame that can incinerate the very earth. Has different effects when Tapped or Held.\nTap:\nCall forth flames in a raging blaze. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Blazing Threshold that follows the current active character. When the Blazing Threshold gets close to opponents, it will deal Nightsoul-aligned Pyro DMG to nearby opponents at intervals.\nHold:\nUnleash fire in a composed manner, dealing Nightsoul-aligned AoE Pyro DMG to nearby opponents. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Scorching Threshold that follows the current active character. When the current active character within a Scorching Threshold deals DMG to opponents, the Threshold will launch a Coordinated Attack that deals Nightsoul-aligned Pyro DMG based on the Traveler's ATK. This effect can occur once every 3s.\nNightsoul's Blessing: Traveler\nContinuously consumes Nightsoul points. The Traveler's Nightsoul's Blessing state lasts 12s at maximum, and when their Nightsoul points are exhausted, this state will end. If this Elemental Skill is used again while active, the Traveler's Nightsoul points will be reset to 42 points. Blazing and Scorching Thresholds will disappear once the Traveler's Nightsoul's Blessing state ends, and only 1 Blazing or Scorching Threshold summoned by the Traveler themselves can exist at any one time.\nTogether, you and Paimon watched the shifting colors of the flowing flames.",
+      "upgrades": [
+        {
+          "name": "Blazing Threshold",
+          "value": "28.1%"
+        },
+        {
+          "name": "Hold DMG",
+          "value": "98.8%"
+        },
+        {
+          "name": "Scorching Threshold",
+          "value": "81.4%"
+        },
+        {
+          "name": "Nightsoul Point Limit",
+          "value": "80.0"
+        },
+        {
+          "name": "CD",
+          "value": "18.0s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Plains Scorcher",
+      "unlock": "Elemental Burst",
+      "description": "Condense the flames into a mark, dealing Nightsoul-aligned AoE Pyro DMG to opponents up ahead. Within the next 4s, the Traveler restores 7 Nightsoul points per second.\nTogether, you and Paimon studied the principles behind an undying flame.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "427.2%"
+        },
+        {
+          "name": "CD",
+          "value": "18.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "70"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "True Flame of Incineration",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When the Traveler has over 20 Nightsoul points, the attack AoE of the Blazing and Scorching Thresholds from the Elemental Skill Flowfire Blade after they hit opponents is increased.",
+      "level": 1
+    },
+    {
+      "name": "Embers Unspent",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "After the current active character inside a Blazing Threshold or Scorching Threshold triggers a Pyro-related reaction, the Traveler will regain 5 Energy. This can occur once every 12s. Additionally, when a nearby party member triggers a Nightsoul Burst, the Traveler will regain 4 Energy.",
+      "level": 4
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Starfire's Flowing Light",
+      "unlock": "Constellation Lv. 1",
+      "description": "While Blazing Threshold or Scorching Threshold are active, the current active character deals 6% increased DMG. If said character is in the Nightsoul's Blessing state, they will deal an additional 9% DMG.",
+      "level": 1
+    },
+    {
+      "name": "Ever-Lit Candle",
+      "unlock": "Constellation Lv. 2",
+      "description": "Within 12s of using the Elemental Skill Flowfire Blade, after nearby party members trigger a Pyro-related reaction on an opponent, the Traveler will regain 14 Nightsoul points. Each use of Flowfire Blade will restore at most 28 Nightsoul points in this way.",
+      "level": 2
+    },
+    {
+      "name": "Relayed Beacon",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Flowfire Blade by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "Ravaging Flame",
+      "unlock": "Constellation Lv. 4",
+      "description": "After using the Elemental Burst Plains Scorcher, the Traveler gains 20% Pyro DMG Bonus for 9s.",
+      "level": 4
+    },
+    {
+      "name": "The Fire Inextinguishable",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Plains Scorcher by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "The Sacred Flame Imperishable",
+      "unlock": "Constellation Lv. 6",
+      "description": "While in the Nightsoul's Blessing state, the Traveler's Normal, Charged, and Plunging Attacks will be converted to Nightsoul-aligned Pyro DMG that cannot be overridden, and the CRIT DMG of these attacks is increased by 40%.",
+      "level": 6
+    }
+  ],
+  "vision_key": "PYRO",
+  "weapon_type": "SWORD",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Mora",
+        "value": 20000
+      },
+      {
+        "name": "Brilliant Diamond Sliver",
+        "value": 1
+      },
+      {
+        "name": "Windwheel Aster",
+        "value": 3
+      },
+      {
+        "name": "Damaged Mask",
+        "value": 3
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Mora",
+        "value": 40000
+      },
+      {
+        "name": "Brilliant Diamond Fragment",
+        "value": 3
+      },
+      {
+        "name": "Windwheel Aster",
+        "value": 10
+      },
+      {
+        "name": "Damaged Mask",
+        "value": 15
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Mora",
+        "value": 60000
+      },
+      {
+        "name": "Brilliant Diamond Fragment",
+        "value": 6
+      },
+      {
+        "name": "Windwheel Aster",
+        "value": 20
+      },
+      {
+        "name": "Stained Mask",
+        "value": 12
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Mora",
+        "value": 80000
+      },
+      {
+        "name": "Brilliant Diamond Chunk",
+        "value": 3
+      },
+      {
+        "name": "Windwheel Aster",
+        "value": 30
+      },
+      {
+        "name": "Stained Mask",
+        "value": 18
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Mora",
+        "value": 100000
+      },
+      {
+        "name": "Brilliant Diamond Chunk",
+        "value": 6
+      },
+      {
+        "name": "Windwheel Aster",
+        "value": 45
+      },
+      {
+        "name": "Ominous Mask",
+        "value": 12
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Mora",
+        "value": 120000
+      },
+      {
+        "name": "Brilliant Diamond Gemstone",
+        "value": 6
+      },
+      {
+        "name": "Windwheel Aster",
+        "value": 60
+      },
+      {
+        "name": "Ominous Mask",
+        "value": 24
+      }
+    ],
+    "ascension_data": [
+      {
+        "AscensionPhase": "0",
+        "Level": "1/20",
+        "BaseHP": "912",
+        "BaseAtk": "18",
+        "BaseDef": "57",
+        "ATK": "0%"
+      },
+      {
+        "AscensionPhase": "1",
+        "Level": "20/40",
+        "BaseHP": "3,023.55",
+        "BaseAtk": "59.05",
+        "BaseDef": "189.76",
+        "ATK": "0%"
+      },
+      {
+        "AscensionPhase": "2",
+        "Level": "40/50",
+        "BaseHP": "5,012.89",
+        "BaseAtk": "97.91",
+        "BaseDef": "314.61",
+        "ATK": "6.0%"
+      },
+      {
+        "AscensionPhase": "3",
+        "Level": "50/60",
+        "BaseHP": "6,411.33",
+        "BaseAtk": "125.22",
+        "BaseDef": "402.38",
+        "ATK": "12.0%"
+      },
+      {
+        "AscensionPhase": "4",
+        "Level": "60/70",
+        "BaseHP": "7,648.45",
+        "BaseAtk": "149.38",
+        "BaseDef": "480.03",
+        "ATK": "12.0%"
+      },
+      {
+        "AscensionPhase": "5",
+        "Level": "70/80",
+        "BaseHP": "8,884.66",
+        "BaseAtk": "173.53",
+        "BaseDef": "557.61",
+        "ATK": "18.0%"
+      },
+      {
+        "AscensionPhase": "6",
+        "Level": "80/90",
+        "BaseHP": "10,121.78",
+        "BaseAtk": "197.69",
+        "BaseDef": "635.25",
+        "ATK": "24.0%"
+      }
+    ]
+  }
+}
