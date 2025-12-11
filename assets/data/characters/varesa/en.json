@@ -1,0 +1,352 @@
+{
+  "name": "Varesa",
+  "vision": "Electro",
+  "weapon": "Catalyst",
+  "nation": "Natlan",
+  "affiliation": "Teteocan / Collective of Plenty",
+  "rarity": 5,
+  "release": "2025-03-26",
+  "constellation": "Mascara Luctatori",
+  "birthday": "0000-11-15",
+  "description": "A laid-back orchard manager and warrior of the Collective of Plenty. An aspiring hero who hungers for justice... and lots and lots of food!",
+  "skillTalents": [
+    {
+      "name": "By the Horns",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nGotta try... to do battle like the greatest champion luchadors do! Launches up to 3 strikes, dealing Electro DMG.\nCharged Attack\nConsumes a certain amount of Stamina to headbutt opponents in front, dealing Nightsoul-aligned Electro DMG and using the momentum to leap into the air.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing Nightsoul-aligned AoE Electro DMG upon impact. If Varesa is in a combat state upon landing, or if the shockwave from her plunging attack hits an opponent, she will gain 25 Nightsoul points. She enters the Fiery Passion state upon reaching maximum Nightsoul points through this method.\nFiery Passion\nIn this state, Varesa's Normal, Charged, and Plunging Attacks will gain corresponding buffs:\n- Normal Attack: Launches up to 3 fierce strikes, dealing greater Electro DMG.\n- Charged Attack: Consumes a certain amount of Stamina to slam into her opponents, dealing greater amounts of Nightsoul-aligned Electro DMG.\n- Plunging Attack: Consumes all her Nightsoul points and slams down on the ground from mid-air, dealing greater amounts of Nightsoul-aligned AoE Electro DMG.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "46.78%"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "40.03%"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "56.31%"
+        },
+        {
+          "name": "Charged Attack DMG",
+          "value": "89.28%"
+        },
+        {
+          "name": "Charged Attack Stamina Cost",
+          "value": "50"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "74.59%"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "149.14% / 186.29%"
+        },
+        {
+          "name": "Fiery Passion 1-Hit DMG",
+          "value": "54.41%"
+        },
+        {
+          "name": "Fiery Passion 2-Hit DMG",
+          "value": "52.03%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Riding the Night-Rainbow",
+      "unlock": "Elemental Skill",
+      "description": "Wields a searing flame that can incinerate the very earth. Has different effects when Tapped or Held.\nTap:\nQuickly rush a certain distance forward, dealing Electro DMG to opponents along the path.\nHold:\nVaresa enters the Nightsoul's Blessing state and switches to Sudden Onrush mode. \nSudden Onrush:\nContinuously consumes Nightsoul points. In this state, Varesa's Movement SPD and interruption resistance are increased. She can use terrain to execute flying leaps or consume additional Nightsoul points to traverse atop water or liquid Phlogiston while remaining immune to DMG from the latter.\nNightsoul's Blessing: Varesa\nWhen she runs out of Nightsoul points, her Nightsoul's Blessing state will be canceled. Has 2 charges.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Nightsoul Point Limit",
+          "value": "80.0"
+        },
+        {
+          "name": "CD",
+          "value": "See Attributes"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Guardian Vent!",
+      "unlock": "Elemental Burst",
+      "description": "After casting, Varesa unleashes a powerful flying kick, dealing Nightsoul-aligned AoE Electro DMG to enemies, restores her Nightsoul points to maximum, and enters the 'Fiery Passion' state.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "CD",
+          "value": "15.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "70"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Tag-Team Triple Jump!",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "After using the Elemental Skill Riding the Night-Rainbow, Varesa gains 'Rainbow Crash' for 5s. During this time, when Varesa uses a Plunging Attack, the shockwave DMG dealt when she hits the ground is increased by 60% of her ATK. If Varesa is in the Fiery Passion state, this ground impact DMG is increased by 150% of her ATK instead.",
+      "level": 1
+    },
+    {
+      "name": "The Hero Twice-Returned!",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When a nearby party member triggers a Nightsoul Burst, Varesa's ATK increases by 35% for 12s. Max 2 stacks. Each stack's duration is counted independently.",
+      "level": 4
+    },
+    {
+      "name": "Night Realm's Gift: A Torch That Incinerates Evil",
+      "unlock": "Unlocked Automatically",
+      "description": "After Nightsoul points have been fully depleted, Varesa will switch to using Phlogiston to maintain the Sudden Onrush mode. While in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission to switch to Sudden Onrush mode mid-air or while sprinting.",
+      "level": 1
+    },
+    {
+      "name": "Blazing Heart, Singular Advance!",
+      "unlock": "Unlocked Automatically",
+      "description": "Varesa's Sprint speed is increased. Additionally, while in an area with Phlogiston Mechanics within Natlan, your party members will restore 20 Phlogiston when consuming food.",
+      "level": 1
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Undying Passion",
+      "unlock": "Constellation Lv. 1",
+      "description": "The effects of the Passive Talent 'Tag-Team Triple Jump!' are enhanced: When performing the Special Plunging Attack 'Thunderous Tornado Eruption,' Varesa will also gain 'Rainbow Crash' for 5s. When 'Rainbow Crash' is in effect, Varesa's Plunging Attack ground impact DMG is increased by 180% of her ATK.",
+      "level": 1
+    },
+    {
+      "name": "Beyond the Edge of Light",
+      "unlock": "Constellation Lv. 2",
+      "description": "Varesa will enter Apex Drive after using a Plunging Attack, regardless of whether she is in the Fiery Passion state or not. When Apex Drive is active, Varesa's interruption resistance will also further increase. Additionally, Varesa will restore 11.5 Energy when her Plunging Attack ground impact hits an opponent.",
+      "level": 2
+    },
+    {
+      "name": "Unbowed Resolve",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Guardian Vent! by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "The Courage to Press On",
+      "unlock": "Constellation Lv. 4",
+      "description": "Varesa will receive various buffs based on her state when using her Elemental Burst Guardian Vent! If Varesa has neither Fiery Passion nor Apex Drive active, she will gain Diligent Refinement for 15s, which will increase her Plunging Attack ground impact DMG by 500% of her ATK.",
+      "level": 4
+    },
+    {
+      "name": "Thoughts Floating on the Warm Breeze",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Normal Attack: By the Horns by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "A Hero of Justice's Triumph",
+      "unlock": "Constellation Lv. 6",
+      "description": "Varesa restores 30 Energy when she enters Apex Drive. Her Plunging Attacks and Elemental Burst Guardian Vent! gain 10% CRIT Rate and 100% CRIT DMG.",
+      "level": 6
+    }
+  ],
+  "vision_key": "ELECTRO",
+  "weapon_type": "CATALYST",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Mora",
+        "value": 20000
+      },
+      {
+        "name": "Vajrada Amethyst Sliver",
+        "value": 1
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 3
+      },
+      {
+        "name": "Juvenile Fang",
+        "value": 3
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Mora",
+        "value": 40000
+      },
+      {
+        "name": "Vajrada Amethyst Fragment",
+        "value": 3
+      },
+      {
+        "name": "Sparkless Statue Core",
+        "value": 2
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 10
+      },
+      {
+        "name": "Juvenile Fang",
+        "value": 15
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Mora",
+        "value": 60000
+      },
+      {
+        "name": "Vajrada Amethyst Fragment",
+        "value": 6
+      },
+      {
+        "name": "Sparkless Statue Core",
+        "value": 4
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 20
+      },
+      {
+        "name": "Seasoned Fang",
+        "value": 12
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Mora",
+        "value": 80000
+      },
+      {
+        "name": "Vajrada Amethyst Chunk",
+        "value": 3
+      },
+      {
+        "name": "Sparkless Statue Core",
+        "value": 8
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 30
+      },
+      {
+        "name": "Seasoned Fang",
+        "value": 18
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Mora",
+        "value": 100000
+      },
+      {
+        "name": "Vajrada Amethyst Chunk",
+        "value": 6
+      },
+      {
+        "name": "Sparkless Statue Core",
+        "value": 12
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 45
+      },
+      {
+        "name": "Tyrant's Fang",
+        "value": 12
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Mora",
+        "value": 120000
+      },
+      {
+        "name": "Vajrada Amethyst Gemstone",
+        "value": 6
+      },
+      {
+        "name": "Sparkless Statue Core",
+        "value": 20
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 60
+      },
+      {
+        "name": "Tyrant's Fang",
+        "value": 24
+      }
+    ],
+    "ascension_data": [
+      {
+        "AscensionPhase": "0",
+        "Level": "1/20",
+        "BaseHP": "989",
+        "BaseAtk": "28",
+        "BaseDef": "61",
+        "CRIT Rate": "0%"
+      },
+      {
+        "AscensionPhase": "1",
+        "Level": "20/40",
+        "BaseHP": "3,412",
+        "BaseAtk": "96",
+        "BaseDef": "210",
+        "CRIT Rate": "0%"
+      },
+      {
+        "AscensionPhase": "2",
+        "Level": "40/50",
+        "BaseHP": "5,708",
+        "BaseAtk": "160",
+        "BaseDef": "351",
+        "CRIT Rate": "4.8%"
+      },
+      {
+        "AscensionPhase": "3",
+        "Level": "50/60",
+        "BaseHP": "7,370",
+        "BaseAtk": "207",
+        "BaseDef": "454",
+        "CRIT Rate": "9.6%"
+      },
+      {
+        "AscensionPhase": "4",
+        "Level": "60/70",
+        "BaseHP": "8,840",
+        "BaseAtk": "248",
+        "BaseDef": "544",
+        "CRIT Rate": "9.6%"
+      },
+      {
+        "AscensionPhase": "5",
+        "Level": "70/80",
+        "BaseHP": "10,318",
+        "BaseAtk": "290",
+        "BaseDef": "635",
+        "CRIT Rate": "14.4%"
+      },
+      {
+        "AscensionPhase": "6",
+        "Level": "90/90",
+        "BaseHP": "12,699",
+        "BaseAtk": "356",
+        "BaseDef": "782",
+        "CRIT Rate": "19.2%"
+      }
+    ]
+  }
+}
