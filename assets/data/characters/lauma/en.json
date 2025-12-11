@@ -1,0 +1,364 @@
+{
+  "name": "Lauma",
+  "vision": "Dendro",
+  "weapon": "Catalyst",
+  "nation": "Nod-Krai",
+  "affiliation": "Frostmoon Scions",
+  "rarity": 5,
+  "release": "2025-09-10",
+  "constellation": "Cerva Nivea",
+  "birthday": "0000-03-01",
+  "description": "The Moonchanter of the Frostmoon Scions. She bears the title \"Maiden of the Grove\" and serves as an envoy of the tranquil forest, weaving hymns to guide the lost.",
+  "skillTalents": [
+    {
+      "name": "Peregrination of Linnunrata",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 3 attacks that deal Dendro DMG.\nCharged Attack\nLauma undergoes Spirit Envoy Metamorphosis, transforming into an envoy of the tranquil forest and consuming Stamina to charge forward for up to 10s. While in this state, Lauma's interruption resistance is increased, and she can consume additional Stamina to perform up to two consecutive jumps. When the state ends or is canceled, she unleashes a Spiritcall Prayer, dealing AoE Dendro DMG.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE Dendro DMG upon impact.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "57.29%"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "54.07%"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "75.64%"
+        },
+        {
+          "name": "Spiritcall Prayer DMG",
+          "value": "219.37%"
+        },
+        {
+          "name": "Spirit Envoy Form Stamina Cost",
+          "value": "25/s"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "104.41%"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "208.77% / 260.76%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Runo: Dawnless Rest of Karsikko",
+      "unlock": "Elemental Skill",
+      "description": "Silently incants an ancient hymn, summoning a Frostgrove Sanctuary with different effects depending on whether you Tap or Hold.\nTap:\nIntones a Hymn of Hunting, dealing AoE Dendro DMG.\nHold:\nCan be unleashed when you have at least 1 Verdant Dew. Lauma consumes all Verdant Dew and intones a Hymn of Eternal Rest, dealing one regular instance of AoE Dendro DMG and another instance of AoE Dendro DMG that is considered Lunar-Bloom DMG. Each Verdant Dew consumed will give Lauma one stack of Moon Song.\nFrostgrove Sanctuary:\nA magical array that follows the active character, dealing a single instance of AoE Dendro DMG to opponents within the array every 2s. This DMG is considered Elemental Skill DMG. Additionally, opponents hit by the Frostgrove Sanctuary will have their Dendro RES and Hydro RES decreased.",
+      "upgrades": [
+        {
+          "name": "Press DMG",
+          "value": "206.72%"
+        },
+        {
+          "name": "Hold DMG",
+          "value": "268.74%"
+        },
+        {
+          "name": "Frostgrove Sanctuary DMG",
+          "value": "163.2% ATK + 326.4% EM"
+        },
+        {
+          "name": "Dendro/Hydro RES Decrease",
+          "value": "25%"
+        },
+        {
+          "name": "Frostgrove Sanctuary Duration",
+          "value": "15.0s"
+        },
+        {
+          "name": "CD",
+          "value": "12.0s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Runo: All Hearts Become the Beating Moon",
+      "unlock": "Elemental Burst",
+      "description": "Lauma incants a sacred song of the far north, gaining 18 stacks of Pale Hymn. Additionally, if Lauma uses her Elemental Burst while she has Moon Song, or she gains Moon Song within 15s of using her Elemental Burst, she will consume all Moon Song stacks and gain 6 Pale Hymn stacks for every Moon Song consumed.\nPale Hymn:\nIncreases the DMG dealt by Bloom, Hyperbloom, Burgeon, and Lunar-Bloom reactions triggered by nearby party members based on Lauma's Elemental Mastery. When party members deal DMG with these reactions, 1 stack of Pale Hymn will be consumed.",
+      "upgrades": [
+        {
+          "name": "Bloom/Hyperbloom/Burgeon DMG Bonus",
+          "value": "472.19% EM"
+        },
+        {
+          "name": "Lunar-Bloom DMG Bonus",
+          "value": "377.81% EM"
+        },
+        {
+          "name": "Initial Pale Hymn Stacks",
+          "value": "18"
+        },
+        {
+          "name": "CD",
+          "value": "15.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "60"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Light for the Frosty Night",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "For the next 20s after Lauma uses her Elemental Skill, corresponding buff effects will be granted depending on the party's Moonsign: \n- Nascent Gleam: Bloom, Hyperbloom, and Burgeon DMG dealt by party members can Score Critical Hits (Fixed CRIT Rate 15%, CRIT DMG 100%).\n- Ascendant Gleam: All nearby party members' Lunar-Bloom DMG CRIT Rate +10%, CRIT DMG +20%.",
+      "level": 1
+    },
+    {
+      "name": "Cleansing for the Spring",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "Each point of Elemental Mastery Lauma has will give her the following bonuses:\n- DMG dealt by her Elemental Skill is increased by 0.04% (Max 32%).\n- The cooldown of her Charged Attack Spirit Envoy Metamorphosis is reduced by 0.02% (Max 20%).",
+      "level": 4
+    },
+    {
+      "name": "Nature's Chorus",
+      "unlock": "Unlocked Automatically",
+      "description": "Moonsign Benediction: When a party member triggers a Bloom reaction, converts it to Lunar-Bloom. Every point of Lauma's Elemental Mastery increases Lunar-Bloom's Base DMG by 0.0175% (Max 14%). Additionally, when Lauma is in the party, the party's Moonsign level increases by 1.",
+      "level": 1
+    },
+    {
+      "name": "Prayers for the Forest",
+      "unlock": "Unlocked Automatically",
+      "description": "Displays the location of nearby resources unique to Nod-Krai on the mini-map.",
+      "level": 1
+    }
+  ],
+  "constellations": [
+    {
+      "name": "O Lips, Weave Me Songs and Psalms",
+      "unlock": "Constellation Lv. 1",
+      "description": "After Lauma uses her Elemental Skill or Burst, she gains Threads of Life for 20s. During this time, when nearby party members trigger Lunar-Bloom reactions, nearby active characters will recover HP equal to 500% of Lauma's Elemental Mastery. This effect can trigger once every 1.9s. Additionally, the Stamina cost for Lauma's Spirit Envoy Form is reduced by 40%, and its Max Duration is extended by 5s.",
+      "level": 1
+    },
+    {
+      "name": "Twine Warnings and Tales From the North",
+      "unlock": "Constellation Lv. 2",
+      "description": "Lauma's Elemental Burst is enhanced: Pale Hymn effects are increased by 500% of Lauma's EM for Bloom/Hyperbloom/Burgeon and 400% for Lunar-Bloom. Under Moonsign: Ascendant Gleam, all party members' Lunar-Bloom DMG is increased by 40%.",
+      "level": 2
+    },
+    {
+      "name": "Seek Not to Tread the Sly Fox's Path",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Runo: Dawnless Rest of Karsikko by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "Nor Yearn for the Great Bear's Might",
+      "unlock": "Constellation Lv. 4",
+      "description": "When attacks from the Frostgrove Sanctuary hit opponents, Lauma will regain 4 Elemental Energy. This effect can be triggered once every 5s.",
+      "level": 4
+    },
+    {
+      "name": "If Truth May Be Subject to Witness",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Runo: All Hearts Become the Beating Moon by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "I Offer Blood and Tears to the Moonlight",
+      "unlock": "Constellation Lv. 6",
+      "description": "When the Frostgrove Sanctuary attacks opponents, it deals an additional instance of AoE Dendro DMG equal to 185% of Lauma's EM (considered Lunar-Bloom DMG). This damage does not consume Pale Hymn stacks and grants Lauma 2 Pale Hymn stacks. Max 8 triggers per Frostgrove Sanctuary. Additionally, Lauma's Normal Attacks consume 1 Pale Hymn stack to deal Dendro DMG equal to 150% of her EM (considered Lunar-Bloom DMG).",
+      "level": 6
+    }
+  ],
+  "vision_key": "DENDRO",
+  "weapon_type": "CATALYST",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Mora",
+        "value": 20000
+      },
+      {
+        "name": "Nagadus Emerald Sliver",
+        "value": 1
+      },
+      {
+        "name": "Moonfall Silver",
+        "value": 3
+      },
+      {
+        "name": "Tattered Warrant",
+        "value": 3
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Mora",
+        "value": 40000
+      },
+      {
+        "name": "Nagadus Emerald Fragment",
+        "value": 3
+      },
+      {
+        "name": "Lightbearing Scale-Feather",
+        "value": 2
+      },
+      {
+        "name": "Moonfall Silver",
+        "value": 10
+      },
+      {
+        "name": "Tattered Warrant",
+        "value": 15
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Mora",
+        "value": 60000
+      },
+      {
+        "name": "Nagadus Emerald Fragment",
+        "value": 6
+      },
+      {
+        "name": "Lightbearing Scale-Feather",
+        "value": 4
+      },
+      {
+        "name": "Moonfall Silver",
+        "value": 20
+      },
+      {
+        "name": "Immaculate Warrant",
+        "value": 12
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Mora",
+        "value": 80000
+      },
+      {
+        "name": "Nagadus Emerald Chunk",
+        "value": 3
+      },
+      {
+        "name": "Lightbearing Scale-Feather",
+        "value": 8
+      },
+      {
+        "name": "Moonfall Silver",
+        "value": 30
+      },
+      {
+        "name": "Immaculate Warrant",
+        "value": 18
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Mora",
+        "value": 100000
+      },
+      {
+        "name": "Nagadus Emerald Chunk",
+        "value": 6
+      },
+      {
+        "name": "Lightbearing Scale-Feather",
+        "value": 12
+      },
+      {
+        "name": "Moonfall Silver",
+        "value": 45
+      },
+      {
+        "name": "Frost-Etched Warrant",
+        "value": 12
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Mora",
+        "value": 120000
+      },
+      {
+        "name": "Nagadus Emerald Gemstone",
+        "value": 6
+      },
+      {
+        "name": "Lightbearing Scale-Feather",
+        "value": 20
+      },
+      {
+        "name": "Moonfall Silver",
+        "value": 60
+      },
+      {
+        "name": "Frost-Etched Warrant",
+        "value": 24
+      }
+    ],
+    "ascension_data": [
+      {
+        "AscensionPhase": "0",
+        "Level": "1/20",
+        "BaseHP": "1048",
+        "BaseAtk": "25",
+        "BaseDef": "66",
+        "Elemental Mastery": "200"
+      },
+      {
+        "AscensionPhase": "1",
+        "Level": "20/40",
+        "BaseHP": "2,783",
+        "BaseAtk": "66",
+        "BaseDef": "174",
+        "Elemental Mastery": "200"
+      },
+      {
+        "AscensionPhase": "2",
+        "Level": "40/50",
+        "BaseHP": "4,152",
+        "BaseAtk": "99",
+        "BaseDef": "260",
+        "Elemental Mastery": "228.8"
+      },
+      {
+        "AscensionPhase": "3",
+        "Level": "50/60",
+        "BaseHP": "5,348",
+        "BaseAtk": "128",
+        "BaseDef": "335",
+        "Elemental Mastery": "257.6"
+      },
+      {
+        "AscensionPhase": "4",
+        "Level": "60/70",
+        "BaseHP": "6,645",
+        "BaseAtk": "159",
+        "BaseDef": "417",
+        "Elemental Mastery": "257.6"
+      },
+      {
+        "AscensionPhase": "5",
+        "Level": "70/80",
+        "BaseHP": "8,012",
+        "BaseAtk": "191",
+        "BaseDef": "503",
+        "Elemental Mastery": "286.4"
+      },
+      {
+        "AscensionPhase": "6",
+        "Level": "90/90",
+        "BaseHP": "10,654",
+        "BaseAtk": "255",
+        "BaseDef": "669",
+        "Elemental Mastery": "315.2"
+      }
+    ]
+  }
+}
