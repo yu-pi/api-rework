@@ -1,0 +1,391 @@
+{
+  "name": "Durin",
+  "title": "The Undying Fire",
+  "vision": "Pyro",
+  "weapon": "Sword",
+  "nation": "Mondstadt",
+  "affiliation": "Hexerei",
+  "rarity": 5,
+  "release": "2025-12-03",
+  "constellation": "Draco Rubedo",
+  "birthday": "0000-03-14",
+  "description": "A \"child\" of Gold who has returned in a new form. As a member of the Hexerei, he wields the dual powers of the White Dragon and the Black Dragon.",
+  "skillTalents": [
+    {
+      "name": "Radiant Wingslash",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 4 consecutive sword strikes.\nCharged Attack\nConsumes a certain amount of Stamina to perform a slash toward the front.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\nTransmutation: Denial of Darkness\nPressing the Normal Attack button will unleash Transmutation: Denial of Darkness, dealing three consecutive instances of Pyro DMG forward, reversing Essential Transmutation, and entering the Denial of Darkness state for 30s.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "4-Hit DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Charged Attack DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Charged Attack Stamina Cost",
+          "value": "20"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "63.9%"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "128% / 160%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Binary Form: Convergence and Division",
+      "unlock": "Elemental Skill",
+      "description": "Durin taps into his dual nature, entering the Essential Transmutation state for 6s. During this window, he can choose his form:\nConfirmation of Purity (Light Form):\nDurin enters the Confirmation of Purity state. In this state, he restores Elemental Energy when triggering reactions and his Elemental Burst shifts to \"Principle of Purity.\"\nDenial of Darkness (Dark Form):\nDurin enters the Denial of Darkness state. In this state, his Elemental Burst shifts to \"Principle of Darkness\" and his personal DMG is enhanced.\nWitch's Eve Rite: Ode to Ascension\nWhen Durin enters either state while in battle, he will restore a certain amount of Elemental Energy to himself. This effect can be triggered once every 6s.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Energy Restoration",
+          "value": "33"
+        },
+        {
+          "name": "State Duration",
+          "value": "30.0s"
+        },
+        {
+          "name": "CD",
+          "value": "18.0s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Principle of Purity: As the Light Shifts",
+      "unlock": "Elemental Burst",
+      "description": "Used when in the Confirmation of Purity state. Deals 3 hits of AoE Pyro DMG and summons the Dragon of White Flame, which follows the active character and periodically deals AoE Pyro DMG (considered Elemental Burst DMG). After nearby party members trigger Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions on an opponent, that opponent's Pyro RES, and the RES for the corresponding Element involved in the reaction, are decreased.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Dragon of White Flame DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "RES Decrease",
+          "value": "20% (35% with Hexerei)"
+        },
+        {
+          "name": "Duration",
+          "value": "20.0s"
+        },
+        {
+          "name": "CD",
+          "value": "18.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "70"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    },
+    {
+      "name": "Principle of Darkness: As the Stars Smolder",
+      "unlock": "Elemental Burst",
+      "description": "Used when in the Denial of Darkness state. Deals 3 instances of AoE Pyro DMG to opponents in front and summons the Dragon of Dark Decay, which follows the active character and periodically attacks a single target with Pyro DMG (considered Elemental Burst DMG). Durin's Vaporize and Melt DMG is increased.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Dragon of Dark Decay DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Vaporize/Melt DMG Bonus",
+          "value": "40% (70% with Hexerei)"
+        },
+        {
+          "name": "Duration",
+          "value": "20.0s"
+        },
+        {
+          "name": "CD",
+          "value": "18.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "70"
+        }
+      ],
+      "type": "ELEMENTAL_BURST_ALT"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Light Manifest of the Divine Calculus",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "Durin will trigger different buffs depending on the form of his Elemental Burst. White Dragon: RES Shred to Pyro and reaction elements. Dark Dragon: Vaporize and Melt DMG increased.",
+      "level": 1
+    },
+    {
+      "name": "Chaos Formed Like the Night",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "After unleashing an Elemental Burst, Durin gains the Primordial Fusion of Forms effect for 20s: Durin gains 10 stacks of Primordial Fusion. When a periodic attack from Dragon of White Flame or Dragon of Dark Decay deals DMG, 1 stack of Primordial Fusion will be consumed to increase the DMG dealt by 3% of the original DMG for every 100 ATK. A maximum of 75% additional DMG can be dealt this way.",
+      "level": 4
+    },
+    {
+      "name": "Hexerei: Secret Rite",
+      "unlock": "Unlocked Automatically",
+      "description": "Activates when ≥2 Hexerei characters are in the team. Increases all effects of the Ascension Talent 'Light Manifest of the Divine Calculus' (excluding duration) by 75%.",
+      "level": 1
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Adamah's Redemption",
+      "unlock": "Constellation Lv. 1",
+      "description": "After casting his Elemental Burst, Durin's effects will vary depending on the form: Principle of Purity: All other nearby party members gain 20 stacks of Cycle of Enlightenment (consumes stack to increase DMG by 60% of Durin's ATK). Principle of Darkness: Durin gains 20 stacks of Cycle of Enlightenment (consumes 2 stacks to increase Burst DMG by 150% of Durin's ATK).",
+      "level": 1
+    },
+    {
+      "name": "Unground Visions",
+      "unlock": "Constellation Lv. 2",
+      "description": "For 20s after Durin uses an Elemental Burst, triggering Pyro reactions grants all nearby party members a 50% increase to their Pyro DMG and to the corresponding Element's DMG for 6s.",
+      "level": 2
+    },
+    {
+      "name": "Flame Mirror's Revelation",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Principle of Purity: As the Light Shifts by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "Emanare's Source",
+      "unlock": "Constellation Lv. 4",
+      "description": "Durin's Elemental Burst DMG is increased by 40%. Additionally, there is a 30% chance that Cycle of Enlightenment stacks (from C1) will not be consumed when triggered.",
+      "level": 4
+    },
+    {
+      "name": "Scouring Flame's Sundering",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Binary Form: Convergence and Division by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "Dual Birth",
+      "unlock": "Constellation Lv. 6",
+      "description": "Burst ignores 30% DEF baseline. White Dragon Burst hits reduce enemy DEF by 30%. Black Dragon Burst ignores an additional 40% DEF.",
+      "level": 6
+    }
+  ],
+  "vision_key": "PYRO",
+  "weapon_type": "SWORD",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Mora",
+        "value": 20000
+      },
+      {
+        "name": "Agnidus Agate Sliver",
+        "value": 1
+      },
+      {
+        "name": "Frostlamp Flower",
+        "value": 3
+      },
+      {
+        "name": "Tattered Warrant",
+        "value": 3
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Mora",
+        "value": 40000
+      },
+      {
+        "name": "Agnidus Agate Fragment",
+        "value": 3
+      },
+      {
+        "name": "Cyclic Military Kuuvahki Core",
+        "value": 2
+      },
+      {
+        "name": "Frostlamp Flower",
+        "value": 10
+      },
+      {
+        "name": "Tattered Warrant",
+        "value": 15
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Mora",
+        "value": 60000
+      },
+      {
+        "name": "Agnidus Agate Fragment",
+        "value": 6
+      },
+      {
+        "name": "Cyclic Military Kuuvahki Core",
+        "value": 4
+      },
+      {
+        "name": "Frostlamp Flower",
+        "value": 20
+      },
+      {
+        "name": "Immaculate Warrant",
+        "value": 12
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Mora",
+        "value": 80000
+      },
+      {
+        "name": "Agnidus Agate Chunk",
+        "value": 3
+      },
+      {
+        "name": "Cyclic Military Kuuvahki Core",
+        "value": 8
+      },
+      {
+        "name": "Frostlamp Flower",
+        "value": 30
+      },
+      {
+        "name": "Immaculate Warrant",
+        "value": 18
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Mora",
+        "value": 100000
+      },
+      {
+        "name": "Agnidus Agate Chunk",
+        "value": 6
+      },
+      {
+        "name": "Cyclic Military Kuuvahki Core",
+        "value": 12
+      },
+      {
+        "name": "Frostlamp Flower",
+        "value": 45
+      },
+      {
+        "name": "Frost-Etched Warrant",
+        "value": 12
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Mora",
+        "value": 120000
+      },
+      {
+        "name": "Agnidus Agate Gemstone",
+        "value": 6
+      },
+      {
+        "name": "Cyclic Military Kuuvahki Core",
+        "value": 20
+      },
+      {
+        "name": "Frostlamp Flower",
+        "value": 60
+      },
+      {
+        "name": "Frost-Etched Warrant",
+        "value": 24
+      }
+    ],
+    "ascension_data": [
+      {
+        "AscensionPhase": "0",
+        "Level": "1/20",
+        "BaseHP": "12,430",
+        "BaseAtk": "346",
+        "BaseDef": "822",
+        "CRIT DMG": "0%"
+      },
+      {
+        "AscensionPhase": "1",
+        "Level": "20/40",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "CRIT DMG": "0%"
+      },
+      {
+        "AscensionPhase": "2",
+        "Level": "40/50",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "CRIT DMG": "9.6%"
+      },
+      {
+        "AscensionPhase": "3",
+        "Level": "50/60",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "CRIT DMG": "19.2%"
+      },
+      {
+        "AscensionPhase": "4",
+        "Level": "60/70",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "CRIT DMG": "19.2%"
+      },
+      {
+        "AscensionPhase": "5",
+        "Level": "70/80",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "CRIT DMG": "28.8%"
+      },
+      {
+        "AscensionPhase": "6",
+        "Level": "90/90",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "CRIT DMG": "38.4%"
+      }
+    ]
+  }
+}

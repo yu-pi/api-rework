@@ -1,0 +1,373 @@
+{
+  "name": "Jahoda",
+  "title": "Windthreading Shadow",
+  "vision": "Anemo",
+  "weapon": "Bow",
+  "nation": "Nod-Krai",
+  "affiliation": "Curatorium of Secrets",
+  "rarity": 4,
+  "release": "2025-12-03",
+  "constellation": "Fragum",
+  "birthday": "0000-01-05",
+  "description": "A legendary bounty hunter of Nod-Krai who currently works as a 'do-it-all' employee for the Curatorium of Secrets. She is lively, clever, and claims to be extremely reliable.",
+  "skillTalents": [
+    {
+      "name": "Strike While the Arrow's Hot",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 3 consecutive shots with a bow.\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG. While aiming, mighty winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, hitting opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "82.4%"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "38.0% × 2"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "101.2%"
+        },
+        {
+          "name": "Aimed Shot DMG",
+          "value": "86.7%"
+        },
+        {
+          "name": "Fully-Charged Aimed Shot DMG",
+          "value": "223.2%"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "112.3%"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "225% / 281%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Savvy Strategy: Splitting the Spoils",
+      "unlock": "Elemental Skill",
+      "description": "Jahoda dashes toward her opponent, entering the Shadow Pursuit state upon contact. While in this state, Jahoda moves continuously and swiftly. If nearby opponents are affected by Pyro, Hydro, Electro, or Cryo, she will quietly convert her Purr-loined Treasure Flask to that element, gradually filling it. When the duration ends or the skill is used again, Jahoda drains the Flask and deals a single instance of Anemo DMG to nearby opponents. When the Flask is full, Jahoda immediately drains it, dealing a more powerful instance of Anemo DMG and exiting the state.\nMoonsign: Ascendant Gleam\nWhen the Purr-loined Treasure Flask becomes full, Jahoda will not immediately discharge it. Instead, for a short duration, she steadily consumes the stored element inside and periodically fires Fluffy Meowballs at nearby opponents, dealing DMG of the corresponding element. When a Fluffy Meowball hits an opponent, Jahoda regenerates 2 Elemental Energy (once every 3.5s).",
+      "upgrades": [
+        {
+          "name": "Smoke Bomb DMG",
+          "value": "286.2%"
+        },
+        {
+          "name": "Unfilled Treasure Flask DMG",
+          "value": "343.4%"
+        },
+        {
+          "name": "Filled Treasure Flask DMG",
+          "value": "381.6%"
+        },
+        {
+          "name": "Fluffy Meowball DMG",
+          "value": "230.4%"
+        },
+        {
+          "name": "Treasure Flask Duration",
+          "value": "20.0s"
+        },
+        {
+          "name": "CD",
+          "value": "15.0s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Hidden Aces: Seven Tools of the Hunter",
+      "unlock": "Elemental Burst",
+      "description": "Jahoda retrieves 2 Purrsonal Coordinated Assistance Robots and deals a single instance of Anemo DMG to nearby opponents. The robots will periodically deal Anemo DMG to nearby opponents and heal active party members based on Jahoda's ATK.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "373.0%"
+        },
+        {
+          "name": "Coordinator DMG",
+          "value": "31.1%"
+        },
+        {
+          "name": "Coordinator Healing",
+          "value": "143.8% ATK + 1102"
+        },
+        {
+          "name": "Extra Healing (Lowest HP Ally)",
+          "value": "55.3% ATK + 424"
+        },
+        {
+          "name": "Duration",
+          "value": "12.0s"
+        },
+        {
+          "name": "CD",
+          "value": "18.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "70"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Plan to Get Paid",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "The Purrsonal Coordinated Assistance Robots are enhanced based on the element with the highest number of characters in the party:\n- Pyro: Deals 130% of original DMG.\n- Hydro: Heals for 120% of original healing amount.\n- Electro: Number of Robots increases by 1.\n- Cryo: Attack interval reduced by 10%.",
+      "level": 1
+    },
+    {
+      "name": "Sweet Berry Bounty",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When a Purrsonal Coordinated Assistance Robot heals an active team member, if that character's HP is above 70%, their Elemental Mastery is increased by 100 for 6s.",
+      "level": 4
+    },
+    {
+      "name": "Moonsign Benediction: Rooftop Dash",
+      "unlock": "Unlocked Automatically",
+      "description": "When Jahoda is in the party, the party's Moonsign will increase by 1 level.",
+      "level": 1
+    },
+    {
+      "name": "Backstreet Guile",
+      "unlock": "Unlocked Automatically",
+      "description": "When dispatched on an expedition in Nod-Krai, time consumed is reduced by 25%.",
+      "level": 1
+    }
+  ],
+  "constellations": [
+    {
+      "name": "One More Flask!",
+      "unlock": "Constellation Lv. 1",
+      "description": "When a Fluffy Meowball fired by the Elemental Skill hits an enemy, there is a 50% chance for it to bounce, dealing the corresponding Elemental DMG to nearby opponents.",
+      "level": 1
+    },
+    {
+      "name": "Rogue's Quick Thinking",
+      "unlock": "Constellation Lv. 2",
+      "description": "In the Ascension Talent 'Plan to Get Paid,' Jahoda can secretly track the element with the second highest number of characters in addition to the first, allowing up to two elemental effects to be active at once.",
+      "level": 2
+    },
+    {
+      "name": "Desperate Gamble",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Hidden Aces: Seven Tools of the Hunter by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "Wild Berry Amid the Dust",
+      "unlock": "Constellation Lv. 4",
+      "description": "When a Purrsonal Coordinated Assistance Robot from the Elemental Burst undergoes an Elemental Conversion, Jahoda will recover 4 Elemental Energy.",
+      "level": 4
+    },
+    {
+      "name": "The Greatest Treasure",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Savvy Strategy: Splitting the Spoils by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "The Littlest Luck",
+      "unlock": "Constellation Lv. 6",
+      "description": "Moonsign: Ascendant Gleam: After the Purr-loined Treasure Flask from the Elemental Skill is full, nearby Moonsign characters in your party have their CRIT Rate increased by 5% and CRIT DMG increased by 40% for 20s.",
+      "level": 6
+    }
+  ],
+  "vision_key": "ANEMO",
+  "weapon_type": "BOW",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Mora",
+        "value": 20000
+      },
+      {
+        "name": "Vayuda Turquoise Sliver",
+        "value": 1
+      },
+      {
+        "name": "Portable Bearing",
+        "value": 3
+      },
+      {
+        "name": "Broken Drive Shaft",
+        "value": 3
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Mora",
+        "value": 40000
+      },
+      {
+        "name": "Vayuda Turquoise Fragment",
+        "value": 3
+      },
+      {
+        "name": "Lightbearing Scale-Feather",
+        "value": 2
+      },
+      {
+        "name": "Portable Bearing",
+        "value": 10
+      },
+      {
+        "name": "Broken Drive Shaft",
+        "value": 15
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Mora",
+        "value": 60000
+      },
+      {
+        "name": "Vayuda Turquoise Fragment",
+        "value": 6
+      },
+      {
+        "name": "Lightbearing Scale-Feather",
+        "value": 4
+      },
+      {
+        "name": "Portable Bearing",
+        "value": 20
+      },
+      {
+        "name": "Reinforced Drive Shaft",
+        "value": 12
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Mora",
+        "value": 80000
+      },
+      {
+        "name": "Vayuda Turquoise Chunk",
+        "value": 3
+      },
+      {
+        "name": "Lightbearing Scale-Feather",
+        "value": 8
+      },
+      {
+        "name": "Portable Bearing",
+        "value": 30
+      },
+      {
+        "name": "Reinforced Drive Shaft",
+        "value": 18
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Mora",
+        "value": 100000
+      },
+      {
+        "name": "Vayuda Turquoise Chunk",
+        "value": 6
+      },
+      {
+        "name": "Lightbearing Scale-Feather",
+        "value": 12
+      },
+      {
+        "name": "Portable Bearing",
+        "value": 45
+      },
+      {
+        "name": "Precision Drive Shaft",
+        "value": 12
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Mora",
+        "value": 120000
+      },
+      {
+        "name": "Vayuda Turquoise Gemstone",
+        "value": 6
+      },
+      {
+        "name": "Lightbearing Scale-Feather",
+        "value": 20
+      },
+      {
+        "name": "Portable Bearing",
+        "value": 60
+      },
+      {
+        "name": "Precision Drive Shaft",
+        "value": 24
+      }
+    ],
+    "ascension_data": [
+      {
+        "AscensionPhase": "0",
+        "Level": "1/20",
+        "BaseHP": "809",
+        "BaseAtk": "19",
+        "BaseDef": "49",
+        "Healing Bonus": "0%"
+      },
+      {
+        "AscensionPhase": "1",
+        "Level": "20/40",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "Healing Bonus": "0%"
+      },
+      {
+        "AscensionPhase": "2",
+        "Level": "40/50",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "Healing Bonus": "See Attributes"
+      },
+      {
+        "AscensionPhase": "3",
+        "Level": "50/60",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "Healing Bonus": "See Attributes"
+      },
+      {
+        "AscensionPhase": "4",
+        "Level": "60/70",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "Healing Bonus": "See Attributes"
+      },
+      {
+        "AscensionPhase": "5",
+        "Level": "70/80",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "Healing Bonus": "See Attributes"
+      },
+      {
+        "AscensionPhase": "6",
+        "Level": "90/90",
+        "BaseHP": "9,646",
+        "BaseAtk": "223",
+        "BaseDef": "580",
+        "Healing Bonus": "18.5%"
+      }
+    ]
+  }
+}
