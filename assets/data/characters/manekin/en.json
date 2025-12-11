@@ -1,0 +1,217 @@
+{
+  "name": "Manekin/Manekina",
+  "vision": "Adaptive",
+  "weapon": "Sword",
+  "nation": "Unknown",
+  "affiliation": "Miliastra Wonderland",
+  "rarity": 5,
+  "release": "2025-10-22",
+  "constellation": "Miliastra Wonderland",
+  "birthday": "Unknown",
+  "description": "A Manekin gifted to you and Paimon by a witch who uses the pseudonym 'Octavia.' They are gifted at exploring the mysteries sealed within the Miliastra Wonderland.",
+  "skillTalents": [
+    {
+      "name": "Outlander Arts: Vigilant Watch",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 4 rapid strikes.\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "4-Hit DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Charged Attack DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Charged Attack Stamina Cost",
+          "value": "20"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "63.9%"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "128% / 160%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Punishing Barrage",
+      "unlock": "Elemental Skill",
+      "description": "The Manekin attacks nearby opponents once, dealing AoE DMG corresponding to their own Elemental Type before pulling back rapidly. After unleashing an Elemental Skill, the Manekin's Normal Attacks, Charged Attacks, and Plunging Attacks are converted to deal the corresponding elemental DMG, which cannot be overridden by other Elemental infusions, for a period of time. Has 2 charges.\n\"A well-measured blow is a necessary warning.\"",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Infusion Duration",
+          "value": "4.0s"
+        },
+        {
+          "name": "CD",
+          "value": "8.0s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "No Entry",
+      "unlock": "Elemental Burst",
+      "description": "The Manekin summons a \"Restricted Area\" that follows them around, dealing 1 instance of DMG corresponding to the Manekin's Elemental Type to nearby opponents. Additionally, when opponents enter the Restricted Area, they will receive 1 instance of DMG corresponding to the Manekin's Elemental Type. This effect can trigger once every 0.5s. The Restricted Area will disappear when the Manekin leaves the field.\n\"Those who insist on trespassing within the restricted area will be regarded as hostile and expelled with maximum force.\"",
+      "upgrades": [
+        {
+          "name": "Restricted Area Summon DMG",
+          "value": "324%"
+        },
+        {
+          "name": "Restricted Area Trespass DMG",
+          "value": "28%"
+        },
+        {
+          "name": "CD",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "See Attributes"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Battlelines Redrawn",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When the Manekin leaves the field, if a Restricted Area that they summoned is still active, it will explode, dealing AoE DMG of the Manekin's Elemental Type equal to 200% of the Manekin's ATK.",
+      "level": 1
+    },
+    {
+      "name": "Combat Readiness",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When the Manekin is not on the field and their Elemental Energy is below 30%, they will recover 2 Elemental Energy per second.",
+      "level": 4
+    },
+    {
+      "name": "Agile Stance",
+      "unlock": "Unlocked Automatically",
+      "description": "When the Manekin unleashes an Elemental Skill or Burst, it will change to one of its existing ensembles at random.",
+      "level": 1
+    }
+  ],
+  "constellations": [],
+  "vision_key": "ADAPTIVE",
+  "weapon_type": "SWORD",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Miliastra Wonderland Level",
+        "value": 10
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Miliastra Wonderland Level",
+        "value": 20
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Miliastra Wonderland Level",
+        "value": 30
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Miliastra Wonderland Level",
+        "value": 40
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Miliastra Wonderland Level",
+        "value": 50
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Miliastra Wonderland Level",
+        "value": 60
+      }
+    ],
+    "ascension_data": [
+      {
+        "AscensionPhase": "0",
+        "Level": "1/20",
+        "BaseHP": "2,342",
+        "BaseAtk": "79",
+        "BaseDef": "147",
+        "ATK": "0%"
+      },
+      {
+        "AscensionPhase": "1",
+        "Level": "20/40",
+        "BaseHP": "4,529",
+        "BaseAtk": "121",
+        "BaseDef": "284",
+        "ATK": "0%"
+      },
+      {
+        "AscensionPhase": "2",
+        "Level": "40/50",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "ATK": "6.0%"
+      },
+      {
+        "AscensionPhase": "3",
+        "Level": "50/60",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "ATK": "12.0%"
+      },
+      {
+        "AscensionPhase": "4",
+        "Level": "60/70",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "ATK": "12.0%"
+      },
+      {
+        "AscensionPhase": "5",
+        "Level": "70/80",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "ATK": "18.0%"
+      },
+      {
+        "AscensionPhase": "6",
+        "Level": "90/90",
+        "BaseHP": "See Attributes",
+        "BaseAtk": "See Attributes",
+        "BaseDef": "See Attributes",
+        "ATK": "24.0%"
+      }
+    ]
+  }
+}
