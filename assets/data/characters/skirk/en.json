@@ -1,0 +1,358 @@
+{
+  "name": "Skirk",
+  "vision": "Cryo",
+  "weapon": "Sword",
+  "nation": "Scourge",
+  "affiliation": "Cosmic Calamity",
+  "rarity": 5,
+  "release": "2025-06-18",
+  "constellation": "Crystallina",
+  "birthday": "0000-11-05",
+  "description": "A visitor who once appeared in an Abyssal rift and the Primordial Sea, this solitary warrior mentored Tartaglia in the martial arts. She bears the title 'Void Star'.",
+  "skillTalents": [
+    {
+      "name": "Havoc: Sunder",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 5 consecutive attacks.\nCharged Attack\nConsumes a certain amount of Stamina to hurl a spinning crystal spear, dealing DMG to opponents ahead.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "107.8%"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "98.4%"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "64.1% + 64.1%"
+        },
+        {
+          "name": "4-Hit DMG",
+          "value": "120.2%"
+        },
+        {
+          "name": "5-Hit DMG",
+          "value": "163.9%"
+        },
+        {
+          "name": "Charged Attack DMG",
+          "value": "132.1% × 2"
+        },
+        {
+          "name": "Charged Attack Stamina Cost",
+          "value": "20"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "126.4%"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "253% / 316%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Havoc: Warp",
+      "unlock": "Elemental Skill",
+      "description": "Imitates the combat style of 'The Foul.' Produces different effects depending on whether you Tap or Hold.\nTap:\nSkirk gains 45 Serpent's Subtlety and switches to Seven-Phase Flash mode. This mode continuously consumes Serpent's Subtlety, increases Normal/Charged Attack AoE and interruption resistance, and converts attacks to Cryo DMG.\nHold:\nSkirk gains 45 Serpent's Subtlety and continuously moves at high speed, capable of moving across water. She can end this movement prematurely by using the skill again.\nSerpent's Subtlety:\nA special resource used to maintain Seven-Phase Flash or cast her Elemental Burst.",
+      "upgrades": [
+        {
+          "name": "Skill DMG (Tap)",
+          "value": "262.6%"
+        },
+        {
+          "name": "Skill DMG (Hold)",
+          "value": "388.7%"
+        },
+        {
+          "name": "Serpent's Subtlety Gain",
+          "value": "45"
+        },
+        {
+          "name": "Seven-Phase Flash Max Duration",
+          "value": "12.5s"
+        },
+        {
+          "name": "CD",
+          "value": "8.0s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Havoc: Ruin",
+      "unlock": "Elemental Burst",
+      "description": "Skirk's Elemental Burst does not rely on Elemental Energy but consumes Serpent's Subtlety. When Skirk has at least 50 Serpent's Subtlety, she can expend all of it to unleash Havoc: Ruin, ripping space apart to deal massive AoE Cryo DMG. DMG increases for every point of Serpent's Subtlety consumed above 50.\nHavoc: Extinction:\nWhile in Seven-Phase Flash mode, Havoc: Ruin is replaced by Havoc: Extinction. This special burst can be used without consuming Serpent's Subtlety and grants the 'All Shall Wither' effect, increasing Normal Attack DMG.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Havoc: Extinction DMG",
+          "value": "See Attributes"
+        },
+        {
+          "name": "Cost",
+          "value": "50 Serpent's Subtlety"
+        },
+        {
+          "name": "CD",
+          "value": "15.0s"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Reason Beyond Reason",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When nearby party members trigger Frozen, Superconduct, Cryo Swirl, or Cryo Crystallize reactions, a Void Rift is created (max 3 exist at once, triggered every 2.5s). Skirk can absorb Void Rifts via Charged Attacks in Seven-Phase Flash, Havoc: Extinction, or Holding her Skill. Each absorbed Rift grants 8 Serpent's Subtlety points.",
+      "level": 1
+    },
+    {
+      "name": "Return to Oblivion",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When nearby Hydro/Cryo party members hit opponents with their respective elements, Skirk gains 'Death's Crossing' stacks (max 3). Each stack increases Skirk's Normal Attack DMG in Seven-Phase Flash by 110%/120%/170% and Havoc: Ruin DMG by 105%/115%/160%.",
+      "level": 4
+    },
+    {
+      "name": "Mutual Weapons Mentorship",
+      "unlock": "Unlocked Automatically",
+      "description": "When all party members are either Hydro or Cryo, and there is at least 1 Hydro and 1 Cryo character, party members' Elemental Skill Level is increased by 1.",
+      "level": 1
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Far to Fall",
+      "unlock": "Constellation Lv. 1",
+      "description": "Enhances 'Reason Beyond Reason': Every Void Rift absorbed summons a crystal blade dealing 500% of Skirk's ATK as Cryo DMG (considered Charged Attack DMG).",
+      "level": 1
+    },
+    {
+      "name": "Into the Abyss",
+      "unlock": "Constellation Lv. 2",
+      "description": "After using Havoc: Warp, gains 10 additional Serpent's Subtlety. Havoc: Ruin DMG calculation considers up to 10 extra points. Additionally, using Havoc: Extinction in Seven-Phase Flash increases ATK by 70% for 12.5s.",
+      "level": 2
+    },
+    {
+      "name": "Serendipitous Sin",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Havoc: Ruin by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "Fractured Flow",
+      "unlock": "Constellation Lv. 4",
+      "description": "Enhances 'Return to Oblivion': Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/40%.",
+      "level": 4
+    },
+    {
+      "name": "End of Wishes",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Havoc: Warp by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "To the Source",
+      "unlock": "Constellation Lv. 6",
+      "description": "Absorbing Void Rifts grants 'Havoc: Sever' stacks (max 3). Havoc: Ruin consumes stacks to deal 750% ATK as additional Cryo DMG per stack. In Seven-Phase Flash, 3rd/5th Normal Attacks consume a stack to launch coordinated attacks dealing 180% ATK.",
+      "level": 6
+    }
+  ],
+  "vision_key": "CRYO",
+  "weapon_type": "SWORD",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Mora",
+        "value": 20000
+      },
+      {
+        "name": "Shivada Jade Sliver",
+        "value": 1
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 3
+      },
+      {
+        "name": "Meshing Gear",
+        "value": 3
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Mora",
+        "value": 40000
+      },
+      {
+        "name": "Shivada Jade Fragment",
+        "value": 3
+      },
+      {
+        "name": "Ensnaring Gaze",
+        "value": 2
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 10
+      },
+      {
+        "name": "Meshing Gear",
+        "value": 15
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Mora",
+        "value": 60000
+      },
+      {
+        "name": "Shivada Jade Fragment",
+        "value": 6
+      },
+      {
+        "name": "Ensnaring Gaze",
+        "value": 4
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 20
+      },
+      {
+        "name": "Mechanical Spur Gear",
+        "value": 12
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Mora",
+        "value": 80000
+      },
+      {
+        "name": "Shivada Jade Chunk",
+        "value": 3
+      },
+      {
+        "name": "Ensnaring Gaze",
+        "value": 8
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 30
+      },
+      {
+        "name": "Mechanical Spur Gear",
+        "value": 18
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Mora",
+        "value": 100000
+      },
+      {
+        "name": "Shivada Jade Chunk",
+        "value": 6
+      },
+      {
+        "name": "Ensnaring Gaze",
+        "value": 12
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 45
+      },
+      {
+        "name": "Artificed Dynamic Gear",
+        "value": 12
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Mora",
+        "value": 120000
+      },
+      {
+        "name": "Shivada Jade Gemstone",
+        "value": 6
+      },
+      {
+        "name": "Ensnaring Gaze",
+        "value": 20
+      },
+      {
+        "name": "Skysplit Gembloom",
+        "value": 60
+      },
+      {
+        "name": "Artificed Dynamic Gear",
+        "value": 24
+      }
+    ],
+    "ascension_data": [
+      {
+        "AscensionPhase": "0",
+        "Level": "1/20",
+        "BaseHP": "967",
+        "BaseAtk": "28",
+        "BaseDef": "63",
+        "CRIT DMG": "—"
+      },
+      {
+        "AscensionPhase": "1",
+        "Level": "20/40",
+        "BaseHP": "3,336",
+        "BaseAtk": "96",
+        "BaseDef": "217",
+        "CRIT DMG": "—"
+      },
+      {
+        "AscensionPhase": "2",
+        "Level": "40/50",
+        "BaseHP": "5,581",
+        "BaseAtk": "161",
+        "BaseDef": "362",
+        "CRIT DMG": "9.6%"
+      },
+      {
+        "AscensionPhase": "3",
+        "Level": "50/60",
+        "BaseHP": "7,206",
+        "BaseAtk": "208",
+        "BaseDef": "468",
+        "CRIT DMG": "19.2%"
+      },
+      {
+        "AscensionPhase": "4",
+        "Level": "60/70",
+        "BaseHP": "8,644",
+        "BaseAtk": "250",
+        "BaseDef": "561",
+        "CRIT DMG": "19.2%"
+      },
+      {
+        "AscensionPhase": "5",
+        "Level": "70/80",
+        "BaseHP": "10,089",
+        "BaseAtk": "292",
+        "BaseDef": "655",
+        "CRIT DMG": "28.8%"
+      },
+      {
+        "AscensionPhase": "6",
+        "Level": "90/90",
+        "BaseHP": "12,417",
+        "BaseAtk": "359",
+        "BaseDef": "806",
+        "CRIT DMG": "38.4%"
+      }
+    ]
+  }
+}

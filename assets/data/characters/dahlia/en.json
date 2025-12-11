@@ -1,0 +1,346 @@
+{
+  "name": "Dahlia",
+  "vision": "Hydro",
+  "weapon": "Sword",
+  "nation": "Mondstadt",
+  "affiliation": "Church of Favonius",
+  "rarity": 4,
+  "release": "2025-06-18",
+  "constellation": "Cantus Choralis",
+  "birthday": "0000-05-25",
+  "description": "A Deacon of the Church of Favonius who is as sharp with his words as he is with his blade. He bears the title 'Ode and Oblation'.",
+  "skillTalents": [
+    {
+      "name": "Favonius Bladework - Ritual",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 4 rapid strikes.\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "43.5%"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "40.1%"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "23.7% + 29.0%"
+        },
+        {
+          "name": "4-Hit DMG",
+          "value": "65.7%"
+        },
+        {
+          "name": "Charged Attack DMG",
+          "value": "39.9% + 55.1%"
+        },
+        {
+          "name": "Charged Attack Stamina Cost",
+          "value": "20"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "63.9%"
+        },
+        {
+          "name": "Low/High Plunge DMG",
+          "value": "128% / 160%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Immersive Ordinance",
+      "unlock": "Elemental Skill",
+      "description": "After a short prayer, summons the Sacramental Shower. Has different effects when Tapped or Held.\nTap:\nSummons the Sacramental Shower in front.\nHold:\nEngages in continuous prayer, and when done, summons forth a Sacramental Shower in the designated position.\nSacramental Shower:\nWhen opponents or nearby party members touch the Sacramental Shower, different effects will occur depending on the one who touches it:\n- If an opponent touches the Shower, it will explode and deal AoE Hydro DMG to nearby opponents.\n- If a nearby party member touches it, it will bounce the one who touches it high in the air.\nOnly 1 Sacramental Shower summoned by Dahlia himself can be on the field at once.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "395.8%"
+        },
+        {
+          "name": "CD",
+          "value": "9.0s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Radiant Psalter",
+      "unlock": "Elemental Burst",
+      "description": "Appeals to the divine with earnestness and song, dealing AoE Hydro DMG to nearby opponents and granting his party members Favonian Favor, summoning a Shield of Sacred Favor.\nShield of Sacred Favor:\nThe Shield's DMG absorption is based on Dahlia's Max HP, and it will absorb Hydro DMG with 250% effectiveness.\nFavonian Favor:\nWhile this effect is active, 1 Benison stack may be consumed to summon a new Shield of Sacred Favor when an existing Shield is broken via DMG. Dahlia can obtain Benison via the following methods:\n- He will gain 1 Benison stack when his own active party member hits opponents 4 times with Normal Attacks while affected by Favonian Favor.\n- After triggering the effect of his Passive Talent, 'The Wind's Gentle Grace'.\nDahlia can gain a maximum of 4 Benison stacks per Favonian Favor duration.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "690.9%"
+        },
+        {
+          "name": "Shield DMG Absorption",
+          "value": "5.71% Max HP + 658"
+        },
+        {
+          "name": "Favonian Favor Duration",
+          "value": "12.0s"
+        },
+        {
+          "name": "CD",
+          "value": "15.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "60"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "The Wind's Gentle Grace",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When characters affected by the Favonian Favor effect of the Elemental Burst Radiant Psalter trigger Frozen reactions on opponents, they will grant Dahlia 2 Benison stacks. This effect can trigger once every 8s.",
+      "level": 1
+    },
+    {
+      "name": "Prayer of Well-Wrought Joy",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When your active party member is affected by the Favonian Favor effect of the Elemental Burst Radiant Psalter, their ATK SPD will increase based on Dahlia's Max HP: Every 1,000 Max HP will cause an increase of 0.5%, up to a maximum of 20%.",
+      "level": 4
+    },
+    {
+      "name": "Pilgrimage Upon Returning Winds",
+      "unlock": "Unlocked Automatically",
+      "description": "During the day (06:00 - 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%. Does not take effect in Domains, Trounce Domains, or the Spiral Abyss. Swift Stride does not stack.",
+      "level": 1
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Infallible Procession",
+      "unlock": "Constellation Lv. 1",
+      "description": "Each time Dahlia gains 1 of his Elemental Burst Radiant Psalter's Benison stacks, he will regain 2.5 Elemental Energy.",
+      "level": 1
+    },
+    {
+      "name": "Revelation of Mercy",
+      "unlock": "Constellation Lv. 2",
+      "description": "After Dahlia consumes his Elemental Burst Radiant Psalter's Benison stacks to summon a Shield of Sacred Favor, the character protected by said Shield will gain 25% increased Shield Strength for 12s.",
+      "level": 2
+    },
+    {
+      "name": "Windblume Offertory",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Radiant Psalter by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "Collect of the Assembly",
+      "unlock": "Constellation Lv. 4",
+      "description": "The Favonian Favor from Dahlia's Elemental Burst Radiant Psalter lasts 3 more seconds.",
+      "level": 4
+    },
+    {
+      "name": "Let It Be Subtly So",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Immersive Ordinance by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "You Shall Go Out With Joy",
+      "unlock": "Constellation Lv. 6",
+      "description": "The current active character affected by the Elemental Burst Radiant Psalter's Favonian Favor has their ATK SPD increased by 10%. Additionally, when an active character affected by Favonian Favor falls, immediately: Revive them and restore their HP to 100%. This effect can trigger once every 15 minutes.",
+      "level": 6
+    }
+  ],
+  "vision_key": "HYDRO",
+  "weapon_type": "SWORD",
+  "ascension_materials": {
+    "level_20": [
+      {
+        "name": "Mora",
+        "value": 20000
+      },
+      {
+        "name": "Varunada Lazurite Sliver",
+        "value": 1
+      },
+      {
+        "name": "Calla Lily",
+        "value": 3
+      },
+      {
+        "name": "Firm Arrowhead",
+        "value": 3
+      }
+    ],
+    "level_40": [
+      {
+        "name": "Mora",
+        "value": 40000
+      },
+      {
+        "name": "Varunada Lazurite Fragment",
+        "value": 3
+      },
+      {
+        "name": "Secret Source Airflow Accumulator",
+        "value": 2
+      },
+      {
+        "name": "Calla Lily",
+        "value": 10
+      },
+      {
+        "name": "Firm Arrowhead",
+        "value": 15
+      }
+    ],
+    "level_50": [
+      {
+        "name": "Mora",
+        "value": 60000
+      },
+      {
+        "name": "Varunada Lazurite Fragment",
+        "value": 6
+      },
+      {
+        "name": "Secret Source Airflow Accumulator",
+        "value": 4
+      },
+      {
+        "name": "Calla Lily",
+        "value": 20
+      },
+      {
+        "name": "Sharp Arrowhead",
+        "value": 12
+      }
+    ],
+    "level_60": [
+      {
+        "name": "Mora",
+        "value": 80000
+      },
+      {
+        "name": "Varunada Lazurite Chunk",
+        "value": 3
+      },
+      {
+        "name": "Secret Source Airflow Accumulator",
+        "value": 8
+      },
+      {
+        "name": "Calla Lily",
+        "value": 30
+      },
+      {
+        "name": "Sharp Arrowhead",
+        "value": 18
+      }
+    ],
+    "level_70": [
+      {
+        "name": "Mora",
+        "value": 100000
+      },
+      {
+        "name": "Varunada Lazurite Chunk",
+        "value": 6
+      },
+      {
+        "name": "Secret Source Airflow Accumulator",
+        "value": 12
+      },
+      {
+        "name": "Calla Lily",
+        "value": 45
+      },
+      {
+        "name": "Weathered Arrowhead",
+        "value": 12
+      }
+    ],
+    "level_80": [
+      {
+        "name": "Mora",
+        "value": 120000
+      },
+      {
+        "name": "Varunada Lazurite Gemstone",
+        "value": 6
+      },
+      {
+        "name": "Secret Source Airflow Accumulator",
+        "value": 20
+      },
+      {
+        "name": "Calla Lily",
+        "value": 60
+      },
+      {
+        "name": "Weathered Arrowhead",
+        "value": 24
+      }
+    ],
+    "ascension_data": [
+      {
+        "AscensionPhase": "0",
+        "Level": "1/20",
+        "BaseHP": "1,038",
+        "BaseAtk": "16",
+        "BaseDef": "46",
+        "HP": "0%"
+      },
+      {
+        "AscensionPhase": "1",
+        "Level": "20/40",
+        "BaseHP": "2,670",
+        "BaseAtk": "40",
+        "BaseDef": "119",
+        "HP": "0%"
+      },
+      {
+        "AscensionPhase": "2",
+        "Level": "40/50",
+        "BaseHP": "5,116",
+        "BaseAtk": "77",
+        "BaseDef": "229",
+        "HP": "6.0%"
+      },
+      {
+        "AscensionPhase": "3",
+        "Level": "50/60",
+        "BaseHP": "6,413",
+        "BaseAtk": "97",
+        "BaseDef": "287",
+        "HP": "12.0%"
+      },
+      {
+        "AscensionPhase": "4",
+        "Level": "60/70",
+        "BaseHP": "7,800",
+        "BaseAtk": "118",
+        "BaseDef": "349",
+        "HP": "12.0%"
+      },
+      {
+        "AscensionPhase": "5",
+        "Level": "70/80",
+        "BaseHP": "9,288",
+        "BaseAtk": "140",
+        "BaseDef": "416",
+        "HP": "18.0%"
+      },
+      {
+        "AscensionPhase": "6",
+        "Level": "90/90",
+        "BaseHP": "12,506",
+        "BaseAtk": "189",
+        "BaseDef": "560",
+        "HP": "24.0%"
+      }
+    ]
+  }
+}
