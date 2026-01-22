@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: genshindev/api
+  IMAGE_NAME: yu-pi/api-rework
 
 jobs:
   build:
